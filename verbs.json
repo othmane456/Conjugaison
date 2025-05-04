@@ -1,0 +1,168 @@
+[
+    {
+        "infinitive": "être",
+        "conjugations": {
+            "Présent": ["suis", "es", "est", "sommes", "êtes", "sont"],
+            "Imparfait": ["étais", "étais", "était", "étions", "étiez", "étaient"],
+            "Futur Simple": ["serai", "seras", "sera", "serons", "serez", "seront"],
+            "Passé Composé": ["ai été", "as été", "a été", "avons été", "avez été", "ont été"]
+        }
+    },
+    {
+        "infinitive": "avoir",
+        "conjugations": {
+            "Présent": ["ai", "as", "a", "avons", "avez", "ont"],
+            "Imparfait": ["avais", "avais", "avait", "avions", "aviez", "avaient"],
+            "Futur Simple": ["aurai", "auras", "aura", "aurons", "aurez", "auront"],
+            "Passé Composé": ["ai eu", "as eu", "a eu", "avons eu", "avez eu", "ont eu"]
+        }
+    },
+    {
+        "infinitive": "manger",
+        "conjugations": {
+            "Présent": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
+            "Imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
+            "Futur Simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
+            "Passé Composé": ["ai mangé", "as mangé", "a mangé", "avons mangé", "avez mangé", "ont mangé"]
+        }
+    }
+    ,{
+        "infinitive": "parler",
+        "conjugations": {
+            "Présent": ["parle", "parles", "parle", "parlons", "parlez", "parlent"],
+            "Imparfait": ["parlais", "parlais", "parlait", "parlions", "parliez", "parlaient"],
+            "Futur Simple": ["parlerai", "parleras", "parlera", "parlerons", "parlerez", "parleront"],
+            "Passé Composé": ["ai parlé", "as parlé", "a parlé", "avons parlé", "avez parlé", "ont parlé"]
+        }
+    },
+    [
+        {
+            "infinitive": "aller",
+            "conjugations": {
+                "Présent": ["vais", "vas", "va", "allons", "allez", "vont"],
+                "Imparfait": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
+                "Futur Simple": ["irai", "iras", "ira", "irons", "irez", "iront"],
+                "Passé Composé": ["suis allé", "es allé", "est allé", "sommes allés", "êtes allés", "sont allés"]
+            }
+        },
+        {
+            "infinitive": "faire",
+            "conjugations": {
+                "Présent": ["fais", "fais", "fait", "faisons", "faites", "font"],
+                "Imparfait": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"],
+                "Futur Simple": ["ferai", "feras", "fera", "ferons", "ferez", "feront"],
+                "Passé Composé": ["ai fait", "as fait", "a fait", "avons fait", "avez fait", "ont fait"]
+            }
+        },
+        {
+            "infinitive": "venir",
+            "conjugations": {
+                "Présent": ["viens", "viens", "vient", "venons", "venez", "viennent"],
+                "Imparfait": ["venais", "venais", "venait", "venions", "veniez", "venaient"],
+                "Futur Simple": ["viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront"],
+                "Passé Composé": ["suis venu", "es venu", "est venu", "sommes venus", "êtes venus", "sont venus"]
+            }
+        },
+        {
+            "infinitive": "voir",
+            "conjugations": {
+                "Présent": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
+                "Imparfait": ["voyais", "voyais", "voyait", "voyions", "voyiez", "voyaient"],
+                "Futur Simple": ["verrai", "verras", "verra", "verrons", "verrez", "verront"],
+                "Passé Composé": ["ai vu", "as vu", "a vu", "avons vu", "avez vu", "ont vu"]
+            }
+        },
+        {
+            "infinitive": "savoir",
+            "conjugations": {
+                "Présent": ["sais", "sais", "sait", "savons", "savez", "savent"],
+                "Imparfait": ["savais", "savais", "savait", "savions", "saviez", "savaient"],
+                "Futur Simple": ["saurai", "saura", "sauras", "saurons", "saurez", "sauront"],
+                "Passé Composé": ["ai su", "as su", "a su", "avons su", "avez su", "ont su"]
+            }
+        },
+        {
+            "infinitive": "prendre",
+            "conjugations": {
+                "Présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
+                "Imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
+                "Futur Simple": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
+                "Passé Composé": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"]
+            }
+        },
+        {
+            "infinitive": "manger",
+            "conjugations": {
+                "Présent": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
+                "Imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
+                "Futur Simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
+                "Passé Composé": ["ai mangé", "as mangé", "a mangé", "avons mangé", "avez mangé", "ont mangé"]
+            }
+        },
+        {
+            "infinitive": "jouer",
+            "conjugations": {
+                "Présent": ["joue", "joues", "joue", "jouons", "jouez", "jouent"],
+                "Imparfait": ["jouais", "jouais", "jouait", "jouions", "jouiez", "jouaient"],
+                "Futur Simple": ["jouerai", "joueras", "jouera", "jouerons", "jouerez", "joueront"],
+                "Passé Composé": ["ai joué", "as joué", "a joué", "avons joué", "avez joué", "ont joué"]
+            }
+        },
+        {
+            "infinitive": "aimer",
+            "conjugations": {
+                "Présent": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
+                "Imparfait": ["aimais", "aimais", "aimait", "aimions", "aimiez", "aimaient"],
+                "Futur Simple": ["aimerai", "aimeras", "aimera", "aimerons", "aimerez", "aimeront"],
+                "Passé Composé": ["ai aimé", "as aimé", "a aimé", "avons aimé", "avez aimé", "ont aimé"]
+            }
+        },
+        {
+            "infinitive": "acheter",
+            "conjugations": {
+                "Présent": ["achète", "achètes", "achète", "achetons", "achetez", "achètent"],
+                "Imparfait": ["achetais", "achetais", "achetait", "achetions", "achetiez", "achetaient"],
+                "Futur Simple": ["achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront"],
+                "Passé Composé": ["ai acheté", "as acheté", "a acheté", "avons acheté", "avez acheté", "ont acheté"]
+            }
+        },
+        {
+            "infinitive": "écouter",
+            "conjugations": {
+                "Présent": ["écoute", "écoutes", "écoute", "écoutons", "écoutez", "écoutent"],
+                "Imparfait": ["écoutais", "écoutais", "écoutait", "écoutions", "écoutiez", "écoutaient"],
+                "Futur Simple": ["écouterai", "écouteras", "écoutera", "écouterons", "écouterez", "écouteront"],
+                "Passé Composé": ["ai écouté", "as écouté", "a écouté", "avons écouté", "avez écouté", "ont écouté"]
+            }
+        },
+        {
+            "infinitive": "écrire",
+            "conjugations": {
+                "Présent": ["écris", "écris", "écrit", "écrivons", "écrivez", "écrivent"],
+                "Imparfait": ["écrivais", "écrivais", "écrivait", "écrivions", "écriviez", "écrivaient"],
+                "Futur Simple": ["écrirai", "écriras", "écrira", "écrirons", "écrirez", "écriront"],
+                "Passé Composé": ["ai écrit", "as écrit", "a écrit", "avons écrit", "avez écrit", "ont écrit"]
+            }
+        },
+        {
+            "infinitive": "dire",
+            "conjugations": {
+                "Présent": ["dis", "dis", "dit", "disons", "dites", "disent"],
+                "Imparfait": ["disais", "disais", "disait", "disions", "disiez", "disaient"],
+                "Futur Simple": ["dirai", "diras", "dira", "dirons", "direz", "diront"],
+                "Passé Composé": ["ai dit", "as dit", "a dit", "avons dit", "avez dit", "ont dit"]
+            }
+        },
+        {
+            "infinitive": "prendre",
+            "conjugations": {
+                "Présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
+                "Imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
+                "Futur Simple": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
+                "Passé Composé": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"]
+            }
+        }
+    ]
+    
+    
+]

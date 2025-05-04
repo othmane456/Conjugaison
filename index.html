@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maestro des Verbes</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;600;700&family=Noto+Sans+Arabic:wght@300;500;700&display=swap');
+    
+    :root {
+        --primary: #2A5C82;
+        --secondary: #7FB4C0;
+        --accent: #FFB347;
+        --light: #F8F9FC;
+        --dark: #1A2E40;
+        --shadow: rgba(42,92,130,0.1);
+        --font-ar: 'El Messiri', sans-serif;
+        --font-fr: 'Noto Sans Arabic', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: var(--font-ar);
+        background: 
+            linear-gradient(45deg, rgba(248,249,252,0.95) 0%, rgba(230,233,244,0.95) 100%),
+            url('data:image/svg+xml,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M0 50h50v50H0zM50 0h50v50H50z" fill="%237fb4c0" opacity="0.05"/></svg>');
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        background: linear-gradient(160deg, var(--primary) 30%, var(--secondary) 100%);
+        color: white;
+        text-align: center;
+        padding: 5rem 1rem 7rem;
+        clip-path: ellipse(120% 100% at 50% 0%);
+        position: relative;
+        overflow: hidden;
+    }
+
+    header::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M50 50c0-5.523-4.477-10-10-10s-10 4.477-10 10 4.477 10 10 10 10-4.477 10-10zm-10 8c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8zm0-18c-5.523 0-10-4.477-10-10s4.477-10 10-10 10 4.477 10 10-4.477 10-10 10z'/%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    header h1 {
+        font-size: clamp(2rem, 6vw, 3.2rem);
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        position: relative;
+    }
+
+    header p {
+        font-size: clamp(1rem, 3vw, 1.3rem);
+        opacity: 0.9;
+        font-weight: 300;
+    }
+
+    .wrapper {
+        flex: 1;
+        max-width: 1200px;
+        margin: -5rem auto 3rem;
+        padding: 0 1.5rem;
+        position: relative;
+        width: 100%;
+    }
+
+    .search-container {
+        position: relative;
+        margin: 2rem auto;
+        max-width: 700px;
+        width: 90%;
+    }
+
+    .search-input {
+        width: 100%;
+        padding: 1.3rem 2.5rem;
+        border: none;
+        border-radius: 35px;
+        font-size: clamp(1rem, 3vw, 1.1rem);
+        background: rgba(255,255,255,0.95);
+        box-shadow: 0 10px 30px rgba(42,92,130,0.1);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        font-family: var(--font-ar);
+    }
+
+    .search-input:focus {
+        outline: none;
+        box-shadow: 0 15px 40px rgba(42,92,130,0.2);
+        transform: scale(1.02);
+    }
+
+    #search-list {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        background: rgba(255,255,255,0.98);
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(42,92,130,0.1);
+        margin-top: 0.8rem;
+        backdrop-filter: blur(8px);
+        overflow: hidden;
+        display: none;
+        z-index: 10;
+    }
+
+    .search-item {
+        padding: 1.2rem 2.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid rgba(42,92,130,0.05);
+        font-size: clamp(0.9rem, 3vw, 1.1rem);
+        color: var(--dark);
+    }
+
+    .search-item:hover {
+        background: rgba(127,180,192,0.1);
+        padding-right: 3rem;
+    }
+
+    .conjugation-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+        gap: 2rem;
+        padding: 2rem;
+        background: rgba(255,255,255,0.9);
+        border-radius: 25px;
+        box-shadow: 0 10px 30px rgba(42,92,130,0.08);
+        backdrop-filter: blur(8px);
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .tense-card {
+        background: white;
+        border-radius: 20px;
+        padding: 1.5rem;
+        box-shadow: 0 5px 15px rgba(42,92,130,0.05);
+        transition: transform 0.3s ease;
+    }
+
+    .tense-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .tense-header {
+        color: var(--primary);
+        font-family: var(--font-fr);
+        font-size: clamp(1.1rem, 3vw, 1.4rem);
+        margin-bottom: 1rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent);
+    }
+
+    .conjugation-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .conjugation-item {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 1rem;
+        align-items: center;
+        padding: 0.8rem;
+        background: rgba(127,180,192,0.05);
+        border-radius: 10px;
+        font-family: var(--font-fr);
+        color: var(--dark);
+        transition: background 0.3s ease;
+        font-size: clamp(0.9rem, 2.5vw, 1rem);
+    }
+
+    .conjugation-item:hover {
+        background: rgba(127,180,192,0.1);
+    }
+
+    .pronoun {
+        color: var(--primary);
+        font-weight: 500;
+        opacity: 0.8;
+    }
+
+    .conjugation {
+        font-weight: 400;
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
+        color: var(--dark);
+        background: rgba(255,255,255,0.9);
+        margin-top: auto;
+        font-family: var(--font-ar);
+        font-size: clamp(0.8rem, 2.5vw, 0.95rem);
+    }
+
+    @media (max-width: 768px) {
+        header {
+            padding: 3rem 1rem 5rem;
+            clip-path: ellipse(150% 100% at 50% 0%);
+        }
+
+        .wrapper {
+            margin: -3rem auto 2rem;
+            padding: 0 1rem;
+        }
+
+        .conjugation-grid {
+            padding: 1rem;
+            gap: 1.5rem;
+        }
+
+        .search-container {
+            width: 95%;
+        }
+
+        .search-input {
+            padding: 1rem 2rem;
+        }
+
+        .search-item {
+            padding: 1rem 2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        header {
+            clip-path: ellipse(200% 100% at 50% 0%);
+        }
+
+        .conjugation-item {
+            padding: 0.6rem;
+            grid-template-columns: 80px 1fr;
+            gap: 0.5rem;
+        }
+    }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Maestro des Verbes</h1>
+    <p>تصريف الأفعال الفرنسية بأسلوب عصري وكبير يناسب كل الشاشات</p>
+  </header>
+
+  <div class="wrapper">
+    <div class="search-container">
+      <input type="text" id="search" class="search-input" placeholder="ابحث عن فعل فرنسي…" oninput="showSearchList()">
+      <div id="search-list"></div>
+    </div>
+    <main id="conjugations" class="conjugation-grid"></main>
+  </div>
+  <footer>© 2025 Maestro des Verbes. جميع الحقوق محفوظة.</footer>
+
+  <script>
+    let verbs = [
+      // سيتم استبدال هذا المصفوفة بمحتوى ملف verbs.json
+    ];
+
+    function showSearchList() {
+      const input = document.getElementById('search').value.trim().toLowerCase();
+      const list = document.getElementById('search-list');
+      list.innerHTML = '';
+      if (!input) { list.style.display='none'; return; }
+      const matches = verbs.filter(v=>v.infinitive.includes(input));
+      matches.forEach(v=>{
+        const div = document.createElement('div');
+        div.className='search-item';
+        div.textContent=v.infinitive;
+        div.onclick=()=>selectVerb(v.infinitive);
+        list.appendChild(div);
+      });
+      list.style.display = matches.length?'block':'none';
+    }
+
+    function selectVerb(inf) {
+      document.getElementById('search').value=inf;
+      document.getElementById('search-list').style.display='none';
+      renderConjugations(inf);
+    }
+
+    function renderConjugations(inf) {
+      const container = document.getElementById('conjugations');
+      container.innerHTML = '';
+      const verb = verbs.find(v=>v.infinitive===inf);
+      if (!verb) return;
+
+      const pronouns = ["je", "tu", "il/elle", "nous", "vous", "ils/elles"];
+
+      Object.entries(verb.conjugations).forEach(([tense, forms]) => {
+        const card = document.createElement('div');
+        card.className = 'tense-card';
+        
+        const header = document.createElement('div');
+        header.className = 'tense-header';
+        header.textContent = tense;
+        
+        const list = document.createElement('div');
+        list.className = 'conjugation-list';
+        
+        forms.forEach((form, index) => {
+          const item = document.createElement('div');
+          item.className = 'conjugation-item';
+          item.innerHTML = `
+            <span class="pronoun">${pronouns[index]}:</span>
+            <span class="conjugation">${form}</span>
+          `;
+          list.appendChild(item);
+        });
+
+        card.append(header, list);
+        container.appendChild(card);
+      });
+    }
+
+    // جلب البيانات من ملف JSON
+    fetch('verbs.json')
+      .then(response => response.json())
+      .then(data => verbs = data)
+      .catch(error => console.error('Error loading verbs:', error));
+  </script>
+</body>
+</html>
