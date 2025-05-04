@@ -43,6 +43,15 @@
         position: relative;
         overflow: hidden;
     }
+    /* إضافة تأثيرات انتقال الجمل */
+  #sentences {
+      transition: opacity 1s ease-in-out;
+      opacity: 0;
+      font-size: 1.5rem;
+      font-family: var(--font-ar);
+      text-align: center;
+      margin: 20px;
+  }
 
     header::before {
         content: '';
@@ -81,6 +90,9 @@
         margin: 2rem auto;
         max-width: 700px;
         width: 90%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
     }
 
     .search-input {
@@ -95,10 +107,20 @@
         font-family: var(--font-ar);
     }
 
-    .search-input:focus {
-        outline: none;
-        box-shadow: 0 15px 40px rgba(42,92,130,0.2);
-        transform: scale(1.02);
+    #search-button {
+        background: var(--primary);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 35px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        font-family: var(--font-ar);
+        flex-shrink: 0;
+    }
+
+    #search-button:hover {
+        background: var(--secondary);
     }
 
     #search-list {
@@ -231,6 +253,10 @@
             padding: 1rem 2rem;
         }
 
+        #search-button {
+            padding: 1rem 1.5rem;
+        }
+
         .search-item {
             padding: 1rem 2rem;
         }
@@ -246,18 +272,24 @@
             grid-template-columns: 80px 1fr;
             gap: 0.5rem;
         }
+
+        #search-button {
+            padding: 0.8rem 1.2rem;
+        }
     }
 </style>
 </head>
 <body>
   <header>
     <h1>Maestro des Verbes</h1>
-    <p>تصريف الأفعال الفرنسية بأسلوب عصري وكبير يناسب كل الشاشات</p>
+    <p>
+      L'esprit est le seul outil de l'homme qui lui permet de changer le monde.    </p>
   </header>
 
   <div class="wrapper">
     <div class="search-container">
-      <input type="text" id="search" class="search-input" placeholder="ابحث عن فعل فرنسي…" oninput="showSearchList()">
+      <input type="text" id="search" class="search-input" placeholder="ابحث عن فعل " oninput="showSearchList()">
+      <button id="search-button" onclick="handleSearch()">Chercher</button>
       <div id="search-list"></div>
     </div>
     <main id="conjugations" class="conjugation-grid"></main>
@@ -265,36 +297,65 @@
   <footer>© 2025 Maestro des Verbes. جميع الحقوق محفوظة.</footer>
 
   <script>
-    let verbs = [
-      // سيتم استبدال هذا المصفوفة بمحتوى ملف verbs.json
-    ];
+    let verbs = [];
 
+    // دالة البحث المحسنة
+    async function handleSearch() {
+      try {
+        const searchTerm = document.getElementById('search').value.trim().toLowerCase();
+        const verb = verbs.find(v => v.infinitive.toLowerCase() === searchTerm);
+        
+        if (verb) {
+          renderConjugations(verb.infinitive);
+          document.getElementById('search-list').style.display = 'none';
+        } else if (searchTerm) {
+          throw new Error('الفعل غير موجود');
+        }
+      } catch (error) {
+        alert(error.message);
+      }
+    }
+
+    // دالة عرض القائمة المنسدلة
     function showSearchList() {
       const input = document.getElementById('search').value.trim().toLowerCase();
       const list = document.getElementById('search-list');
       list.innerHTML = '';
-      if (!input) { list.style.display='none'; return; }
-      const matches = verbs.filter(v=>v.infinitive.includes(input));
-      matches.forEach(v=>{
-        const div = document.createElement('div');
-        div.className='search-item';
-        div.textContent=v.infinitive;
-        div.onclick=()=>selectVerb(v.infinitive);
-        list.appendChild(div);
-      });
-      list.style.display = matches.length?'block':'none';
+      
+      if (!input) {
+        list.style.display = 'none';
+        return;
+      }
+
+      const matches = verbs.filter(v => 
+        v.infinitive.toLowerCase().startsWith(input)
+      );
+
+      if (matches.length > 0) {
+        matches.forEach(v => {
+          const div = document.createElement('div');
+          div.className = 'search-item';
+          div.textContent = v.infinitive;
+          div.onclick = () => selectVerb(v.infinitive);
+          list.appendChild(div);
+        });
+        list.style.display = 'block';
+      } else {
+        list.style.display = 'none';
+      }
     }
 
+    // دالة اختيار الفعل من القائمة
     function selectVerb(inf) {
-      document.getElementById('search').value=inf;
-      document.getElementById('search-list').style.display='none';
-      renderConjugations(inf);
+      document.getElementById('search').value = inf;
+      handleSearch();
     }
 
+    // دالة عرض التصريفات
     function renderConjugations(inf) {
       const container = document.getElementById('conjugations');
       container.innerHTML = '';
-      const verb = verbs.find(v=>v.infinitive===inf);
+      const verb = verbs.find(v => v.infinitive === inf);
       if (!verb) return;
 
       const pronouns = ["je", "tu", "il/elle", "nous", "vous", "ils/elles"];
@@ -303,33 +364,45 @@
         const card = document.createElement('div');
         card.className = 'tense-card';
         
-        const header = document.createElement('div');
-        header.className = 'tense-header';
-        header.textContent = tense;
+        card.innerHTML = `
+          <div class="tense-header">${tense}</div>
+          <div class="conjugation-list">
+            ${forms.map((form, index) => `
+              <div class="conjugation-item">
+                <span class="pronoun">${pronouns[index]}:</span>
+                <span class="conjugation">${form}</span>
+              </div>
+            `).join('')}
+          </div>
+        `;
         
-        const list = document.createElement('div');
-        list.className = 'conjugation-list';
-        
-        forms.forEach((form, index) => {
-          const item = document.createElement('div');
-          item.className = 'conjugation-item';
-          item.innerHTML = `
-            <span class="pronoun">${pronouns[index]}:</span>
-            <span class="conjugation">${form}</span>
-          `;
-          list.appendChild(item);
-        });
-
-        card.append(header, list);
         container.appendChild(card);
       });
     }
 
-    // جلب البيانات من ملف JSON
-    fetch('verbs.json')
-      .then(response => response.json())
-      .then(data => verbs = data)
-      .catch(error => console.error('Error loading verbs:', error));
+    // جلب البيانات
+    window.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const response = await fetch('verbs.json');
+        if (!response.ok) throw new Error('فشل تحميل البيانات');
+        verbs = await response.json();
+        console.log('تم تحميل الأفعال بنجاح:', verbs.length);
+      } catch (error) {
+        console.error('Error:', error);
+        alert('حدث خطأ في تحميل البيانات. الرجاء إعادة تحميل الصفحة.');
+      }
+    });
+
+    // تفعيل البحث بالضغط على Enter
+    document.getElementById('search').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') handleSearch();
+    });
+
+
+
+
+
+
   </script>
 </body>
 </html>
