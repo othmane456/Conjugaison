@@ -4,8 +4,17 @@
         "conjugations": {
             "Présent": ["suis", "es", "est", "sommes", "êtes", "sont"],
             "Imparfait": ["étais", "étais", "était", "étions", "étiez", "étaient"],
+            "Passé Composé": ["ai été", "as été", "a été", "avons été", "avez été", "ont été"],
+            "Plus-que-parfait": ["avais été", "avais été", "avait été", "avions été", "aviez été", "avaient été"],
             "Futur Simple": ["serai", "seras", "sera", "serons", "serez", "seront"],
-            "Passé Composé": ["ai été", "as été", "a été", "avons été", "avez été", "ont été"]
+            "Futur Antérieur": ["aurai été", "auras été", "aura été", "aurons été", "aurez été", "auront été"],
+            "Conditionnel Présent": ["serais", "serais", "serait", "serions", "seriez", "seraient"],
+            "Conditionnel Passé": ["aurais été", "aurais été", "aurait été", "aurions été", "auriez été", "auraient été"],
+            "Subjonctif Présent": ["sois", "sois", "soit", "soyons", "soyez", "soient"],
+            "Subjonctif Passé": ["aie été", "aies été", "ait été", "ayons été", "ayez été", "aient été"],
+            "Impératif Présent": ["sois", "soyons", "soyez"],
+            "Participe Présent": ["étant"],
+            "Participe Passé": ["été"]
         }
     },
     {
@@ -13,156 +22,1865 @@
         "conjugations": {
             "Présent": ["ai", "as", "a", "avons", "avez", "ont"],
             "Imparfait": ["avais", "avais", "avait", "avions", "aviez", "avaient"],
+            "Passé Composé": ["ai eu", "as eu", "a eu", "avons eu", "avez eu", "ont eu"],
+            "Plus-que-parfait": ["avais eu", "avais eu", "avait eu", "avions eu", "aviez eu", "avaient eu"],
             "Futur Simple": ["aurai", "auras", "aura", "aurons", "aurez", "auront"],
-            "Passé Composé": ["ai eu", "as eu", "a eu", "avons eu", "avez eu", "ont eu"]
+            "Futur Antérieur": ["aurai eu", "auras eu", "aura eu", "aurons eu", "aurez eu", "auront eu"],
+            "Conditionnel Présent": ["aurais", "aurais", "aurait", "aurions", "auriez", "auraient"],
+            "Conditionnel Passé": ["aurais eu", "aurais eu", "aurait eu", "aurions eu", "auriez eu", "auraient eu"],
+            "Subjonctif Présent": ["aie", "aies", "ait", "ayons", "ayez", "aient"],
+            "Subjonctif Passé": ["aie eu", "aies eu", "ait eu", "ayons eu", "ayez eu", "aient eu"],
+            "Impératif Présent": ["aie", "ayons", "ayez"],
+            "Participe Présent": ["ayant"],
+            "Participe Passé": ["eu"]
         }
     },
     {
-        "infinitive": "manger",
+        "infinitive": "aller",
         "conjugations": {
-            "Présent": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
-            "Imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
-            "Futur Simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
-            "Passé Composé": ["ai mangé", "as mangé", "a mangé", "avons mangé", "avez mangé", "ont mangé"]
-        }
-    }
-    ,{
-        "infinitive": "parler",
-        "conjugations": {
-            "Présent": ["parle", "parles", "parle", "parlons", "parlez", "parlent"],
-            "Imparfait": ["parlais", "parlais", "parlait", "parlions", "parliez", "parlaient"],
-            "Futur Simple": ["parlerai", "parleras", "parlera", "parlerons", "parlerez", "parleront"],
-            "Passé Composé": ["ai parlé", "as parlé", "a parlé", "avons parlé", "avez parlé", "ont parlé"]
+            "Présent": ["vais", "vas", "va", "allons", "allez", "vont"],
+            "Imparfait": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
+            "Passé Composé": ["suis allé", "es allé", "est allé", "sommes allés", "êtes allés", "sont allés"],
+            "Plus-que-parfait": ["étais allé", "étais allé", "était allé", "étions allés", "étiez allés", "étaient allés"],
+            "Futur Simple": ["irai", "iras", "ira", "irons", "irez", "iront"],
+            "Futur Antérieur": ["serai allé", "seras allé", "sera allé", "serons allés", "serez allés", "seront allés"],
+            "Conditionnel Présent": ["irais", "irais", "irait", "irions", "iriez", "iraient"],
+            "Conditionnel Passé": ["serais allé", "serais allé", "serait allé", "serions allés", "seriez allés", "seraient allés"],
+            "Subjonctif Présent": ["aille", "ailles", "aille", "allions", "alliez", "aillent"],
+            "Subjonctif Passé": ["sois allé", "sois allé", "soit allé", "soyons allés", "soyez allés", "soient allés"],
+            "Impératif Présent": ["va", "allons", "allez"],
+            "Participe Présent": ["allant"],
+            "Participe Passé": ["allé"]
         }
     },
-    [
+    {
+        "infinitive": "faire",
+        "conjugations": {
+            "Présent": ["fais", "fais", "fait", "faisons", "faites", "font"],
+            "Imparfait": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"],
+            "Passé Composé": ["ai fait", "as fait", "a fait", "avons fait", "avez fait", "ont fait"],
+            "Plus-que-parfait": ["avais fait", "avais fait", "avait fait", "avions fait", "aviez fait", "avaient fait"],
+            "Futur Simple": ["ferai", "feras", "fera", "ferons", "ferez", "feront"],
+            "Futur Antérieur": ["aurai fait", "auras fait", "aura fait", "aurons fait", "aurez fait", "auront fait"],
+            "Conditionnel Présent": ["ferais", "ferais", "ferait", "ferions", "feriez", "feraient"],
+            "Conditionnel Passé": ["aurais fait", "aurais fait", "aurait fait", "aurions fait", "auriez fait", "auraient fait"],
+            "Subjonctif Présent": ["fasse", "fasses", "fasse", "fassions", "fassiez", "fassent"],
+            "Subjonctif Passé": ["aie fait", "aies fait", "ait fait", "ayons fait", "ayez fait", "aient fait"],
+            "Impératif Présent": ["fais", "faisons", "faites"],
+            "Participe Présent": ["faisant"],
+            "Participe Passé": ["fait"]
+        }
+    },
+    {
+        "infinitive": "savoir",
+        "conjugations": {
+            "Présent": ["sais", "sais", "sait", "savons", "savez", "savent"],
+            "Imparfait": ["savais", "savais", "savait", "savions", "saviez", "savaient"],
+            "Passé Composé": ["ai su", "as su", "a su", "avons su", "avez su", "ont su"],
+            "Plus-que-parfait": ["avais su", "avais su", "avait su", "avions su", "aviez su", "avaient su"],
+            "Futur Simple": ["saurai", "sauras", "saura", "saurons", "saurez", "sauront"],
+            "Futur Antérieur": ["aurai su", "auras su", "aura su", "aurons su", "aurez su", "auront su"],
+            "Conditionnel Présent": ["saurais", "saurais", "saurait", "saurions", "sauriez", "sauraient"],
+            "Conditionnel Passé": ["aurais su", "aurais su", "aurait su", "aurions su", "auriez su", "auraient su"],
+            "Subjonctif Présent": ["sache", "saches", "sache", "sachions", "sachiez", "sachent"],
+            "Subjonctif Passé": ["aie su", "aies su", "ait su", "ayons su", "ayez su", "aient su"],
+            "Impératif Présent": ["sache", "sachons", "sachez"],
+            "Participe Présent": ["sachant"],
+            "Participe Passé": ["su"]
+        }
+    },
+    {
+        "infinitive": "pouvoir",
+        "conjugations": {
+            "Présent": ["peux", "peux", "peut", "pouvons", "pouvez", "peuvent"],
+            "Imparfait": ["pouvais", "pouvais", "pouvait", "pouvions", "pouviez", "pouvaient"],
+            "Passé Composé": ["ai pu", "as pu", "a pu", "avons pu", "avez pu", "ont pu"],
+            "Plus-que-parfait": ["avais pu", "avais pu", "avait pu", "avions pu", "aviez pu", "avaient pu"],
+            "Futur Simple": ["pourrai", "pourras", "pourra", "pourrons", "pourrez", "pourront"],
+            "Futur Antérieur": ["aurai pu", "auras pu", "aura pu", "aurons pu", "aurez pu", "auront pu"],
+            "Conditionnel Présent": ["pourrais", "pourrais", "pourrait", "pourrions", "pourriez", "pourraient"],
+            "Conditionnel Passé": ["aurais pu", "aurais pu", "aurait pu", "aurions pu", "auriez pu", "auraient pu"],
+            "Subjonctif Présent": ["puisse", "puisses", "puisse", "puissions", "puissiez", "puissent"],
+            "Subjonctif Passé": ["aie pu", "aies pu", "ait pu", "ayons pu", "ayez pu", "aient pu"],
+            "Impératif Présent": ["", "", ""], 
+            "Participe Présent": ["pouvant"],
+            "Participe Passé": ["pu"]
+        }
+    },
+    {
+        "infinitive": "voir",
+        "conjugations": {
+            "Présent": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
+            "Imparfait": ["voyais", "voyais", "voyait", "voyions", "voyiez", "voyaient"],
+            "Passé Composé": ["ai vu", "as vu", "a vu", "avons vu", "avez vu", "ont vu"],
+            "Plus-que-parfait": ["avais vu", "avais vu", "avait vu", "avions vu", "aviez vu", "avaient vu"],
+            "Futur Simple": ["verrai", "verras", "verra", "verrons", "verrez", "verront"],
+            "Futur Antérieur": ["aurai vu", "auras vu", "aura vu", "aurons vu", "aurez vu", "auront vu"],
+            "Conditionnel Présent": ["verrais", "verrais", "verrait", "verrions", "verriez", "verraient"],
+            "Conditionnel Passé": ["aurais vu", "aurais vu", "aurait vu", "aurions vu", "auriez vu", "auraient vu"],
+            "Subjonctif Présent": ["voie", "voies", "voie", "voyions", "voyiez", "voient"],
+            "Subjonctif Passé": ["aie vu", "aies vu", "ait vu", "ayons vu", "ayez vu", "aient vu"],
+            "Impératif Présent": ["vois", "voyons", "voyez"],
+            "Participe Présent": ["voyant"],
+            "Participe Passé": ["vu"]
+        }
+    },
+    {
+        "infinitive": "lire",
+        "conjugations": {
+            "Présent": ["lis", "lis", "lit", "lisons", "lisez", "lisent"],
+            "Imparfait": ["lisais", "lisais", "lisait", "lisions", "lisiez", "lisaient"],
+            "Passé Composé": ["ai lu", "as lu", "a lu", "avons lu", "avez lu", "ont lu"],
+            "Plus-que-parfait": ["avais lu", "avais lu", "avait lu", "avions lu", "aviez lu", "avaient lu"],
+            "Futur Simple": ["lirai", "liras", "lira", "lirons", "lirez", "liront"],
+            "Futur Antérieur": ["aurai lu", "auras lu", "aura lu", "aurons lu", "aurez lu", "auront lu"],
+            "Conditionnel Présent": ["lirais", "lirais", "lirait", "lirions", "liriez", "liraient"],
+            "Conditionnel Passé": ["aurais lu", "aurais lu", "aurait lu", "aurions lu", "auriez lu", "auraient lu"],
+            "Subjonctif Présent": ["lise", "lises", "lise", "lisions", "lisiez", "lisent"],
+            "Subjonctif Passé": ["aie lu", "aies lu", "ait lu", "ayons lu", "ayez lu", "aient lu"],
+            "Impératif Présent": ["lis", "lisons", "lisez"],
+            "Participe Présent": ["lisant"],
+            "Participe Passé": ["lu"]
+        }
+    },
+    {
+        "infinitive": "prendre",
+        "conjugations": {
+            "Présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
+            "Imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
+            "Passé Composé": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"],
+            "Plus-que-parfait": ["avais pris", "avais pris", "avait pris", "avions pris", "aviez pris", "avaient pris"],
+            "Futur Simple": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
+            "Futur Antérieur": ["aurai pris", "auras pris", "aura pris", "aurons pris", "aurez pris", "auront pris"],
+            "Conditionnel Présent": ["prendrais", "prendrais", "prendrait", "prendrions", "prendriez", "prendraient"],
+            "Conditionnel Passé": ["aurais pris", "aurais pris", "aurait pris", "aurions pris", "auriez pris", "auraient pris"],
+            "Subjonctif Présent": ["prenne", "prennes", "prenne", "prenions", "preniez", "prennent"],
+            "Subjonctif Passé": ["aie pris", "aies pris", "ait pris", "ayons pris", "ayez pris", "aient pris"],
+            "Impératif Présent": ["prends", "prenons", "prenez"],
+            "Participe Présent": ["prenant"],
+            "Participe Passé": ["pris"]
+        }
+    },
+    {
+        "infinitive": "venir",
+        "conjugations": {
+            "Présent": ["viens", "viens", "vient", "venons", "venez", "viennent"],
+            "Imparfait": ["venais", "venais", "venait", "venions", "veniez", "venaient"],
+            "Passé Composé": ["suis venu", "es venu", "est venu", "sommes venus", "êtes venus", "sont venus"],
+            "Plus-que-parfait": ["étais venu", "étais venu", "était venu", "étions venus", "étiez venus", "étaient venus"],
+            "Futur Simple": ["viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront"],
+            "Futur Antérieur": ["serai venu", "seras venu", "sera venu", "serons venus", "serez venus", "seront venus"],
+            "Conditionnel Présent": ["viendrais", "viendrais", "viendrait", "viendrions", "viendriez", "viendraient"],
+            "Conditionnel Passé": ["serais venu", "serais venu", "serait venu", "serions venus", "seriez venus", "seraient venus"],
+            "Subjonctif Présent": ["vienne", "viennes", "vienne", "venions", "veniez", "viennent"],
+            "Subjonctif Passé": ["sois venu", "sois venu", "soit venu", "soyons venus", "soyez venus", "soient venus"],
+            "Impératif Présent": ["viens", "venons", "venez"],
+            "Participe Présent": ["venant"],
+            "Participe Passé": ["venu"]
+        }
+    },
+    {
+        "infinitive": "devoir",
+        "conjugations": {
+            "Présent": ["dois", "dois", "doit", "devons", "devez", "doivent"],
+            "Imparfait": ["devais", "devais", "devait", "devions", "deviez", "devaient"],
+            "Passé Composé": ["ai dû", "as dû", "a dû", "avons dû", "avez dû", "ont dû"],
+            "Plus-que-parfait": ["avais dû", "avais dû", "avait dû", "avions dû", "aviez dû", "avaient dû"],
+            "Futur Simple": ["devrai", "devras", "devra", "devrons", "devrez", "devront"],
+            "Futur Antérieur": ["aurai dû", "auras dû", "aura dû", "aurons dû", "aurez dû", "auront dû"],
+            "Conditionnel Présent": ["devrais", "devrais", "devrait", "devrions", "devriez", "devraient"],
+            "Conditionnel Passé": ["aurais dû", "aurais dû", "aurait dû", "aurions dû", "auriez dû", "auraient dû"],
+            "Subjonctif Présent": ["doive", "doives", "doive", "devions", "deviez", "doivent"],
+            "Subjonctif Passé": ["aie dû", "aies dû", "ait dû", "ayons dû", "ayez dû", "aient dû"],
+            "Impératif Présent": ["dois", "devons", "devez"], 
+            "Participe Présent": ["devant"],
+            "Participe Passé": ["dû"]
+        }
+    },
+    {
+        "infinitive": "vouloir",
+        "conjugations": {
+            "Présent": ["veux", "veux", "veut", "voulons", "voulez", "veulent"],
+            "Imparfait": ["voulais", "voulais", "voulait", "voulions", "vouliez", "voulaient"],
+            "Passé Composé": ["ai voulu", "as voulu", "a voulu", "avons voulu", "avez voulu", "ont voulu"],
+            "Plus-que-parfait": ["avais voulu", "avais voulu", "avait voulu", "avions voulu", "aviez voulu", "avaient voulu"],
+            "Futur Simple": ["voudrai", "voudras", "voudra", "voudrons", "voudrez", "voudront"],
+            "Futur Antérieur": ["aurai voulu", "auras voulu", "aura voulu", "aurons voulu", "aurez voulu", "auront voulu"],
+            "Conditionnel Présent": ["voudrais", "voudrais", "voudrait", "voudrions", "voudriez", "voudraient"],
+            "Conditionnel Passé": ["aurais voulu", "aurais voulu", "aurait voulu", "aurions voulu", "auriez voulu", "auraient voulu"],
+            "Subjonctif Présent": ["veuille", "veuilles", "veuille", "voulions", "vouliez", "veuillent"],
+            "Subjonctif Passé": ["aie voulu", "aies voulu", "ait voulu", "ayons voulu", "ayez voulu", "aient voulu"],
+            "Impératif Présent": ["veuille", "voulons", "veuillez"],
+            "Participe Présent": ["voulant"],
+            "Participe Passé": ["voulu"]
+        }
+    },
+    {
+        "infinitive": "dire",
+        "conjugations": {
+            "Présent": ["dis", "dis", "dit", "disons", "dites", "disent"],
+            "Imparfait": ["disais", "disais", "disait", "disions", "disiez", "disaient"],
+            "Passé Composé": ["ai dit", "as dit", "a dit", "avons dit", "avez dit", "ont dit"],
+            "Plus-que-parfait": ["avais dit", "avais dit", "avait dit", "avions dit", "aviez dit", "avaient dit"],
+            "Futur Simple": ["dirai", "diras", "dira", "dirons", "direz", "diront"],
+            "Futur Antérieur": ["aurai dit", "auras dit", "aura dit", "aurons dit", "aurez dit", "auront dit"],
+            "Conditionnel Présent": ["dirais", "dirais", "dirait", "dirions", "diriez", "diraient"],
+            "Conditionnel Passé": ["aurais dit", "aurais dit", "aurait dit", "aurions dit", "auriez dit", "auraient dit"],
+            "Subjonctif Présent": ["dise", "dises", "dise", "disions", "disiez", "disent"],
+            "Subjonctif Passé": ["aie dit", "aies dit", "ait dit", "ayons dit", "ayez dit", "aient dit"],
+            "Impératif Présent": ["dis", "disons", "dites"],
+            "Participe Présent": ["disant"],
+            "Participe Passé": ["dit"]
+        }
+    },
+    {
+        "infinitive": "écrire",
+        "conjugations": {
+            "Présent": ["écris", "écris", "écrit", "écrivons", "écrivez", "écrivent"],
+            "Imparfait": ["écrivais", "écrivais", "écrivait", "écrivions", "écriviez", "écrivaient"],
+            "Passé Composé": ["ai écrit", "as écrit", "a écrit", "avons écrit", "avez écrit", "ont écrit"],
+            "Plus-que-parfait": ["avais écrit", "avais écrit", "avait écrit", "avions écrit", "aviez écrit", "avaient écrit"],
+            "Futur Simple": ["écrirai", "écriras", "écrira", "écrirons", "écrirez", "écriront"],
+            "Futur Antérieur": ["aurai écrit", "auras écrit", "aura écrit", "aurons écrit", "aurez écrit", "auront écrit"],
+            "Conditionnel Présent": ["écrirais", "écrirais", "écrirait", "écririons", "écririez", "écriraient"],
+            "Conditionnel Passé": ["aurais écrit", "aurais écrit", "aurait écrit", "aurions écrit", "auriez écrit", "auraient écrit"],
+            "Subjonctif Présent": ["écrive", "écrives", "écrive", "écrivions", "écriviez", "écrivent"],
+            "Subjonctif Passé": ["aie écrit", "aies écrit", "ait écrit", "ayons écrit", "ayez écrit", "aient écrit"],
+            "Impératif Présent": ["écris", "écrivons", "écrivez"],
+            "Participe Présent": ["écrivant"],
+            "Participe Passé": ["écrit"]
+        }
+    },
+    {
+        "infinitive": "courir",
+        "conjugations": {
+            "Présent": ["cours", "cours", "court", "courons", "courez", "courent"],
+            "Imparfait": ["courais", "courais", "courait", "courions", "couriez", "couraient"],
+            "Passé Composé": ["ai couru", "as couru", "a couru", "avons couru", "avez couru", "ont couru"],
+            "Plus-que-parfait": ["avais couru", "avais couru", "avait couru", "avions couru", "aviez couru", "avaient couru"],
+            "Futur Simple": ["courrai", "courras", "courra", "courrons", "courrez", "courront"],
+            "Futur Antérieur": ["aurai couru", "auras couru", "aura couru", "aurons couru", "aurez couru", "auront couru"],
+            "Conditionnel Présent": ["courrais", "courrais", "courrait", "courrions", "courriez", "courraient"],
+            "Conditionnel Passé": ["aurais couru", "aurais couru", "aurait couru", "aurions couru", "auriez couru", "auraient couru"],
+            "Subjonctif Présent": ["coure", "coures", "coure", "courions", "couriez", "courent"],
+            "Subjonctif Passé": ["aie couru", "aies couru", "ait couru", "ayons couru", "ayez couru", "aient couru"],
+            "Impératif Présent": ["cours", "courons", "courez"],
+            "Participe Présent": ["courant"],
+            "Participe Passé": ["couru"]
+        }
+    },
+    {
+        "infinitive": "dormir",
+        "conjugations": {
+            "Présent": ["dors", "dors", "dort", "dormons", "dormez", "dorment"],
+            "Imparfait": ["dormais", "dormais", "dormait", "dormions", "dormiez", "dormaient"],
+            "Passé Composé": ["ai dormi", "as dormi", "a dormi", "avons dormi", "avez dormi", "ont dormi"],
+            "Plus-que-parfait": ["avais dormi", "avais dormi", "avait dormi", "avions dormi", "aviez dormi", "avaient dormi"],
+            "Futur Simple": ["dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront"],
+            "Futur Antérieur": ["aurai dormi", "auras dormi", "aura dormi", "aurons dormi", "aurez dormi", "auront dormi"],
+            "Conditionnel Présent": ["dormirais", "dormirais", "dormirait", "dormirions", "dormiriez", "dormiraient"],
+            "Conditionnel Passé": ["aurais dormi", "aurais dormi", "aurait dormi", "aurions dormi", "auriez dormi", "auraient dormi"],
+            "Subjonctif Présent": ["dorme", "dormes", "dorme", "dormions", "dormiez", "dorment"],
+            "Subjonctif Passé": ["aie dormi", "aies dormi", "ait dormi", "ayons dormi", "ayez dormi", "aient dormi"],
+            "Impératif Présent": ["dors", "dormons", "dormez"],
+            "Participe Présent": ["dormant"],
+            "Participe Passé": ["dormi"]
+        }
+    },
+    {
+        "infinitive": "partir",
+        "conjugations": {
+            "Présent": ["pars", "pars", "part", "partons", "partez", "partent"],
+            "Imparfait": ["partais", "partais", "partait", "partions", "partiez", "partaient"],
+            "Passé Composé": ["suis parti", "es parti", "est parti", "sommes partis", "êtes partis", "sont partis"],
+            "Plus-que-parfait": ["étais parti", "étais parti", "était parti", "étions partis", "étiez partis", "étaient partis"],
+            "Futur Simple": ["partirai", "partiras", "partira", "partirons", "partirez", "partiront"],
+            "Futur Antérieur": ["serai parti", "seras parti", "sera parti", "serons partis", "serez partis", "seront partis"],
+            "Conditionnel Présent": ["partirais", "partirais", "partirait", "partirions", "partiriez", "partiraient"],
+            "Conditionnel Passé": ["serais parti", "serais parti", "serait parti", "serions partis", "seriez partis", "seraient partis"],
+            "Subjonctif Présent": ["parte", "partes", "parte", "partions", "partiez", "partent"],
+            "Subjonctif Passé": ["sois parti", "sois parti", "soit parti", "soyons partis", "soyez partis", "soient partis"],
+            "Impératif Présent": ["pars", "partons", "partez"],
+            "Participe Présent": ["partant"],
+            "Participe Passé": ["parti"]
+        }
+    },
+    {
+        "infinitive": "sortir",
+        "conjugations": {
+            "Présent": ["sors", "sors", "sort", "sortons", "sortez", "sortent"],
+            "Imparfait": ["sortais", "sortais", "sortait", "sortions", "sortiez", "sortaient"],
+            "Passé Composé": ["suis sorti", "es sorti", "est sorti", "sommes sortis", "êtes sortis", "sont sortis"],
+            "Plus-que-parfait": ["étais sorti", "étais sorti", "était sorti", "étions sortis", "étiez sortis", "étaient sortis"],
+            "Futur Simple": ["sortirai", "sortiras", "sortira", "sortirons", "sortirez", "sortiront"],
+            "Futur Antérieur": ["serai sorti", "seras sorti", "sera sorti", "serons sortis", "serez sortis", "seront sortis"],
+            "Conditionnel Présent": ["sortirais", "sortirais", "sortirait", "sortirions", "sortiriez", "sortiraient"],
+            "Conditionnel Passé": ["serais sorti", "serais sorti", "serait sorti", "serions sortis", "seriez sortis", "seraient sortis"],
+            "Subjonctif Présent": ["sorte", "sortes", "sorte", "sortions", "sortiez", "sortent"],
+            "Subjonctif Passé": ["sois sorti", "sois sorti", "soit sorti", "soyons sortis", "soyez sortis", "soient sortis"],
+            "Impératif Présent": ["sors", "sortons", "sortez"],
+            "Participe Présent": ["sortant"],
+            "Participe Passé": ["sorti"]
+        }
+    },
+    {
+        "infinitive": "mettre",
+        "conjugations": {
+            "Présent": ["mets", "mets", "met", "mettons", "mettez", "mettent"],
+            "Imparfait": ["mettais", "mettais", "mettait", "mettions", "mettiez", "mettaient"],
+            "Passé Composé": ["ai mis", "as mis", "a mis", "avons mis", "avez mis", "ont mis"],
+            "Plus-que-parfait": ["avais mis", "avais mis", "avait mis", "avions mis", "aviez mis", "avaient mis"],
+            "Futur Simple": ["mettrai", "mettras", "mettra", "mettrons", "mettrez", "mettront"],
+            "Futur Antérieur": ["aurai mis", "auras mis", "aura mis", "aurons mis", "aurez mis", "auront mis"],
+            "Conditionnel Présent": ["mettrais", "mettrais", "mettrait", "mettrions", "mettriez", "mettraient"],
+            "Conditionnel Passé": ["aurais mis", "aurais mis", "aurait mis", "aurions mis", "auriez mis", "auraient mis"],
+            "Subjonctif Présent": ["mette", "mettes", "mette", "mettions", "mettiez", "mettent"],
+            "Subjonctif Passé": ["aie mis", "aies mis", "ait mis", "ayons mis", "ayez mis", "aient mis"],
+            "Impératif Présent": ["mets", "mettons", "mettez"],
+            "Participe Présent": ["mettant"],
+            "Participe Passé": ["mis"]
+        }
+    },
+    {
+        "infinitive": "suivre",
+        "conjugations": {
+            "Présent": ["suis", "suis", "suit", "suivons", "suivez", "suivent"],
+            "Imparfait": ["suivais", "suivais", "suivait", "suivions", "suiviez", "suivaient"],
+            "Passé Composé": ["ai suivi", "as suivi", "a suivi", "avons suivi", "avez suivi", "ont suivi"],
+            "Plus-que-parfait": ["avais suivi", "avais suivi", "avait suivi", "avions suivi", "aviez suivi", "avaient suivi"],
+            "Futur Simple": ["suivrai", "suivras", "suivra", "suivrons", "suivrez", "suivront"],
+            "Futur Antérieur": ["aurai suivi", "auras suivi", "aura suivi", "aurons suivi", "aurez suivi", "auront suivi"],
+            "Conditionnel Présent": ["suivrais", "suivrais", "suivrait", "suivrions", "suivriez", "suivraient"],
+            "Conditionnel Passé": ["aurais suivi", "aurais suivi", "aurait suivi", "aurions suivi", "auriez suivi", "auraient suivi"],
+            "Subjonctif Présent": ["suive", "suives", "suive", "suivions", "suiviez", "suivent"],
+            "Subjonctif Passé": ["aie suivi", "aies suivi", "ait suivi", "ayons suivi", "ayez suivi", "aient suivi"],
+            "Impératif Présent": ["suis", "suivons", "suivez"],
+            "Participe Présent": ["suivant"],
+            "Participe Passé": ["suivi"]
+        }
+    },
+    {
+        "infinitive": "connaître",
+        "conjugations": {
+            "Présent": ["connais", "connais", "connaît", "connaissons", "connaissez", "connaissent"],
+            "Imparfait": ["connaissais", "connaissais", "connaissait", "connaissions", "connaissiez", "connaissaient"],
+            "Passé Composé": ["ai connu", "as connu", "a connu", "avons connu", "avez connu", "ont connu"],
+            "Plus-que-parfait": ["avais connu", "avais connu", "avait connu", "avions connu", "aviez connu", "avaient connu"],
+            "Futur Simple": ["connaîtrai", "connaîtras", "connaîtra", "connaîtrons", "connaîtrez", "connaîtront"],
+            "Futur Antérieur": ["aurai connu", "auras connu", "aura connu", "aurons connu", "aurez connu", "auront connu"],
+            "Conditionnel Présent": ["connaîtrais", "connaîtrais", "connaîtrait", "connaîtrions", "connaîtriez", "connaîtraient"],
+            "Conditionnel Passé": ["aurais connu", "aurais connu", "aurait connu", "aurions connu", "auriez connu", "auraient connu"],
+            "Subjonctif Présent": ["connaisse", "connaisses", "connaisse", "connaissions", "connaissiez", "connaissent"],
+            "Subjonctif Passé": ["aie connu", "aies connu", "ait connu", "ayons connu", "ayez connu", "aient connu"],
+            "Impératif Présent": ["connais", "connaissons", "connaissez"],
+            "Participe Présent": ["connaissant"],
+            "Participe Passé": ["connu"]
+        }
+    },
+    {
+        "infinitive": "boire",
+        "conjugations": {
+            "Présent": ["bois", "bois", "boit", "buvons", "buvez", "boivent"],
+            "Imparfait": ["buvais", "buvais", "buvait", "buvions", "buviez", "buvaient"],
+            "Passé Composé": ["ai bu", "as bu", "a bu", "avons bu", "avez bu", "ont bu"],
+            "Plus-que-parfait": ["avais bu", "avais bu", "avait bu", "avions bu", "aviez bu", "avaient bu"],
+            "Futur Simple": ["boirai", "boiras", "boira", "boirons", "boirez", "boiront"],
+            "Futur Antérieur": ["aurai bu", "auras bu", "aura bu", "aurons bu", "aurez bu", "auront bu"],
+            "Conditionnel Présent": ["boirais", "boirais", "boirait", "boirions", "boiriez", "boiraient"],
+            "Conditionnel Passé": ["aurais bu", "aurais bu", "aurait bu", "aurions bu", "auriez bu", "auraient bu"],
+            "Subjonctif Présent": ["boive", "boives", "boive", "buvions", "buviez", "boivent"],
+            "Subjonctif Passé": ["aie bu", "aies bu", "ait bu", "ayons bu", "ayez bu", "aient bu"],
+            "Impératif Présent": ["bois", "buvons", "buvez"],
+            "Participe Présent": ["buvant"],
+            "Participe Passé": ["bu"]
+        }
+    },
+    {
+        "infinitive": "vivre",
+        "conjugations": {
+            "Présent": ["vis", "vis", "vit", "vivons", "vivez", "vivent"],
+            "Imparfait": ["vivais", "vivais", "vivait", "vivions", "viviez", "vivaient"],
+            "Passé Composé": ["ai vécu", "as vécu", "a vécu", "avons vécu", "avez vécu", "ont vécu"],
+            "Plus-que-parfait": ["avais vécu", "avais vécu", "avait vécu", "avions vécu", "aviez vécu", "avaient vécu"],
+            "Futur Simple": ["vivrai", "vivras", "vivra", "vivrons", "vivrez", "vivront"],
+            "Futur Antérieur": ["aurai vécu", "auras vécu", "aura vécu", "aurons vécu", "aurez vécu", "auront vécu"],
+            "Conditionnel Présent": ["vivrais", "vivrais", "vivrait", "vivrions", "vivriez", "vivraient"],
+            "Conditionnel Passé": ["aurais vécu", "aurais vécu", "aurait vécu", "aurions vécu", "auriez vécu", "auraient vécu"],
+            "Subjonctif Présent": ["vive", "vives", "vive", "vivions", "viviez", "vivent"],
+            "Subjonctif Passé": ["aie vécu", "aies vécu", "ait vécu", "ayons vécu", "ayez vécu", "aient vécu"],
+            "Impératif Présent": ["vis", "vivons", "vivez"],
+            "Participe Présent": ["vivant"],
+            "Participe Passé": ["vécu"]
+        }
+    },
+    {
+        "infinitive": "ouvrir",
+        "conjugations": {
+            "Présent": ["ouvre", "ouvres", "ouvre", "ouvrons", "ouvrez", "ouvrent"],
+            "Imparfait": ["ouvrais", "ouvrais", "ouvrait", "ouvrions", "ouvriez", "ouvraient"],
+            "Passé Composé": ["ai ouvert", "as ouvert", "a ouvert", "avons ouvert", "avez ouvert", "ont ouvert"],
+            "Plus-que-parfait": ["avais ouvert", "avais ouvert", "avait ouvert", "avions ouvert", "aviez ouvert", "avaient ouvert"],
+            "Futur Simple": ["ouvrirai", "ouvriras", "ouvrira", "ouvrirons", "ouvrirez", "ouvriront"],
+            "Futur Antérieur": ["aurai ouvert", "auras ouvert", "aura ouvert", "aurons ouvert", "aurez ouvert", "auront ouvert"],
+            "Conditionnel Présent": ["ouvrirais", "ouvrirais", "ouvrirait", "ouvririons", "ouvririez", "ouvriraient"],
+            "Conditionnel Passé": ["aurais ouvert", "aurais ouvert", "aurait ouvert", "aurions ouvert", "auriez ouvert", "auraient ouvert"],
+            "Subjonctif Présent": ["ouvre", "ouvres", "ouvre", "ouvrions", "ouvriez", "ouvrent"],
+            "Subjonctif Passé": ["aie ouvert", "aies ouvert", "ait ouvert", "ayons ouvert", "ayez ouvert", "aient ouvert"],
+            "Impératif Présent": ["ouvre", "ouvrons", "ouvrez"],
+            "Participe Présent": ["ouvrant"],
+            "Participe Passé": ["ouvert"]
+        }
+    },
+    {
+        "infinitive": "mourir",
+        "conjugations": {
+            "Présent": ["meurs", "meurs", "meurt", "mourons", "mourez", "meurent"],
+            "Imparfait": ["mourais", "mourais", "mourait", "mourions", "mouriez", "mouraient"],
+            "Passé Composé": ["suis mort", "es mort", "est mort", "sommes morts", "êtes morts", "sont morts"],
+            "Plus-que-parfait": ["étais mort", "étais mort", "était mort", "étions morts", "étiez morts", "étaient morts"],
+            "Futur Simple": ["mourrai", "mourras", "mourra", "mourrons", "mourrez", "mourront"],
+            "Futur Antérieur": ["serai mort", "seras mort", "sera mort", "serons morts", "serez morts", "seront morts"],
+            "Conditionnel Présent": ["mourrais", "mourrais", "mourrait", "mourrions", "mourriez", "mourraient"],
+            "Conditionnel Passé": ["serais mort", "serais mort", "serait mort", "serions morts", "seriez morts", "seraient morts"],
+            "Subjonctif Présent": ["meure", "meures", "meure", "mourions", "mouriez", "meurent"],
+            "Subjonctif Passé": ["sois mort", "sois mort", "soit mort", "soyons morts", "soyez morts", "soient morts"],
+            "Impératif Présent": ["meurs", "mourons", "mourez"],
+            "Participe Présent": ["mourant"],
+            "Participe Passé": ["mort"]
+        }
+    },
+    {
+        "infinitive": "rire",
+        "conjugations": {
+            "Présent": ["ris", "ris", "rit", "rions", "riez", "rient"],
+            "Imparfait": ["riais", "riais", "riait", "riions", "riiez", "riaient"],
+            "Passé Composé": ["ai ri", "as ri", "a ri", "avons ri", "avez ri", "ont ri"],
+            "Plus-que-parfait": ["avais ri", "avais ri", "avait ri", "avions ri", "aviez ri", "avaient ri"],
+            "Futur Simple": ["rirai", "riras", "rira", "rirons", "rirez", "riront"],
+            "Futur Antérieur": ["aurai ri", "auras ri", "aura ri", "aurons ri", "aurez ri", "auront ri"],
+            "Conditionnel Présent": ["rirais", "rirais", "rirait", "ririons", "ririez", "riraient"],
+            "Conditionnel Passé": ["aurais ri", "aurais ri", "aurait ri", "aurions ri", "auriez ri", "auraient ri"],
+            "Subjonctif Présent": ["rie", "ries", "rie", "riions", "riiez", "rient"],
+            "Subjonctif Passé": ["aie ri", "aies ri", "ait ri", "ayons ri", "ayez ri", "aient ri"],
+            "Impératif Présent": ["ris", "rions", "riez"],
+            "Participe Présent": ["riant"],
+            "Participe Passé": ["ri"]
+        }
+    },
+    {
+        "infinitive": "plaire",
+        "conjugations": {
+            "Présent": ["plais", "plais", "plaît", "plaisons", "plaisez", "plaisent"],
+            "Imparfait": ["plaisais", "plaisais", "plaisait", "plaisions", "plaisiez", "plaisaient"],
+            "Passé Composé": ["ai plu", "as plu", "a plu", "avons plu", "avez plu", "ont plu"],
+            "Plus-que-parfait": ["avais plu", "avais plu", "avait plu", "avions plu", "aviez plu", "avaient plu"],
+            "Futur Simple": ["plairai", "plairas", "plaira", "plairons", "plairez", "plairont"],
+            "Futur Antérieur": ["aurai plu", "auras plu", "aura plu", "aurons plu", "aurez plu", "auront plu"],
+            "Conditionnel Présent": ["plairais", "plairais", "plairait", "plairions", "plairiez", "plairaient"],
+            "Conditionnel Passé": ["aurais plu", "aurais plu", "aurait plu", "aurions plu", "auriez plu", "auraient plu"],
+            "Subjonctif Présent": ["plaise", "plaises", "plaise", "plaisions", "plaisiez", "plaisent"],
+            "Subjonctif Passé": ["aie plu", "aies plu", "ait plu", "ayons plu", "ayez plu", "aient plu"],
+            "Impératif Présent": ["plais", "plaisons", "plaisez"],
+            "Participe Présent": ["plaisant"],
+            "Participe Passé": ["plu"]
+        }
+    },
+    {
+        "infinitive": "craindre",
+        "conjugations": {
+            "Présent": ["crains", "crains", "craint", "craignons", "craignez", "craignent"],
+            "Imparfait": ["craignais", "craignais", "craignait", "craignions", "craigniez", "craignaient"],
+            "Passé Composé": ["ai craint", "as craint", "a craint", "avons craint", "avez craint", "ont craint"],
+            "Plus-que-parfait": ["avais craint", "avais craint", "avait craint", "avions craint", "aviez craint", "avaient craint"],
+            "Futur Simple": ["craindrai", "craindras", "craindra", "craindrons", "craindrez", "craindront"],
+            "Futur Antérieur": ["aurai craint", "auras craint", "aura craint", "aurons craint", "aurez craint", "auront craint"],
+            "Conditionnel Présent": ["craindrais", "craindrais", "craindrait", "craindrions", "craindriez", "craindraient"],
+            "Conditionnel Passé": ["aurais craint", "aurais craint", "aurait craint", "aurions craint", "auriez craint", "auraient craint"],
+            "Subjonctif Présent": ["craigne", "craignes", "craigne", "craignions", "craigniez", "craignent"],
+            "Subjonctif Passé": ["aie craint", "aies craint", "ait craint", "ayons craint", "ayez craint", "aient craint"],
+            "Impératif Présent": ["crains", "craignons", "craignez"],
+            "Participe Présent": ["craignant"],
+            "Participe Passé": ["craint"]
+        }
+    },
+    {
+        "infinitive": "battre",
+        "conjugations": {
+            "Présent": ["bats", "bats", "bat", "battons", "battez", "battent"],
+            "Imparfait": ["battais", "battais", "battait", "battions", "battiez", "battaient"],
+            "Passé Composé": ["ai battu", "as battu", "a battu", "avons battu", "avez battu", "ont battu"],
+            "Plus-que-parfait": ["avais battu", "avais battu", "avait battu", "avions battu", "aviez battu", "avaient battu"],
+            "Futur Simple": ["battrai", "battras", "battra", "battrons", "battrez", "battront"],
+            "Futur Antérieur": ["aurai battu", "auras battu", "aura battu", "aurons battu", "aurez battu", "auront battu"],
+            "Conditionnel Présent": ["battrais", "battrais", "battrait", "battrions", "battriez", "battraient"],
+            "Conditionnel Passé": ["aurais battu", "aurais battu", "aurait battu", "aurions battu", "auriez battu", "auraient battu"],
+            "Subjonctif Présent": ["batte", "battes", "batte", "battions", "battiez", "battent"],
+            "Subjonctif Passé": ["aie battu", "aies battu", "ait battu", "ayons battu", "ayez battu", "aient battu"],
+            "Impératif Présent": ["bats", "battons", "battez"],
+            "Participe Présent": ["battant"],
+            "Participe Passé": ["battu"]
+        }
+    },
+    {
+        "infinitive": "conduire",
+        "conjugations": {
+            "Présent": ["conduis", "conduis", "conduit", "conduisons", "conduisez", "conduisent"],
+            "Imparfait": ["conduisais", "conduisais", "conduisait", "conduisions", "conduisiez", "conduisaient"],
+            "Passé Composé": ["ai conduit", "as conduit", "a conduit", "avons conduit", "avez conduit", "ont conduit"],
+            "Plus-que-parfait": ["avais conduit", "avais conduit", "avait conduit", "avions conduit", "aviez conduit", "avaient conduit"],
+            "Futur Simple": ["conduirai", "conduiras", "conduira", "conduirons", "conduirez", "conduiront"],
+            "Futur Antérieur": ["aurai conduit", "auras conduit", "aura conduit", "aurons conduit", "aurez conduit", "auront conduit"],
+            "Conditionnel Présent": ["conduirais", "conduirais", "conduirait", "conduirions", "conduiriez", "conduiraient"],
+            "Conditionnel Passé": ["aurais conduit", "aurais conduit", "aurait conduit", "aurions conduit", "auriez conduit", "auraient conduit"],
+            "Subjonctif Présent": ["conduise", "conduises", "conduise", "conduisions", "conduisiez", "conduisent"],
+            "Subjonctif Passé": ["aie conduit", "aies conduit", "ait conduit", "ayons conduit", "ayez conduit", "aient conduit"],
+            "Impératif Présent": ["conduis", "conduisons", "conduisez"],
+            "Participe Présent": ["conduisant"],
+            "Participe Passé": ["conduit"]
+        }
+    },
+    {
+        "infinitive": "naître",
+        "conjugations": {
+            "Présent": ["nais", "nais", "naît", "naissons", "naissez", "naissent"],
+            "Imparfait": ["naissais", "naissais", "naissait", "naissions", "naissiez", "naissaient"],
+            "Passé Composé": ["suis né", "es né", "est né", "sommes nés", "êtes nés", "sont nés"],
+            "Plus-que-parfait": ["étais né", "étais né", "était né", "étions nés", "étiez nés", "étaient nés"],
+            "Futur Simple": ["naîtrai", "naîtras", "naîtra", "naîtrons", "naîtrez", "naîtront"],
+            "Futur Antérieur": ["serai né", "seras né", "sera né", "serons nés", "serez nés", "seront nés"],
+            "Conditionnel Présent": ["naîtrais", "naîtrais", "naîtrait", "naîtrions", "naîtriez", "naîtraient"],
+            "Conditionnel Passé": ["serais né", "serais né", "serait né", "serions nés", "seriez nés", "seraient nés"],
+            "Subjonctif Présent": ["naisse", "naisses", "naisse", "naissions", "naissiez", "naissent"],
+            "Subjonctif Passé": ["sois né", "sois né", "soit né", "soyons nés", "soyez nés", "soient nés"],
+            "Impératif Présent": ["nais", "naissons", "naissez"],
+            "Participe Présent": ["naissant"],
+            "Participe Passé": ["né"]
+        }
+    },
+    {
+        "infinitive": "peindre",
+        "conjugations": {
+            "Présent": ["peins", "peins", "peint", "peignons", "peignez", "peignent"],
+            "Imparfait": ["peignais", "peignais", "peignait", "peignions", "peigniez", "peignaient"],
+            "Passé Composé": ["ai peint", "as peint", "a peint", "avons peint", "avez peint", "ont peint"],
+            "Plus-que-parfait": ["avais peint", "avais peint", "avait peint", "avions peint", "aviez peint", "avaient peint"],
+            "Futur Simple": ["peindrai", "peindras", "peindra", "peindrons", "peindrez", "peindront"],
+            "Futur Antérieur": ["aurai peint", "auras peint", "aura peint", "aurons peint", "aurez peint", "auront peint"],
+            "Conditionnel Présent": ["peindrais", "peindrais", "peindrait", "peindrions", "peindriez", "peindraient"],
+            "Conditionnel Passé": ["aurais peint", "aurais peint", "aurait peint", "aurions peint", "auriez peint", "auraient peint"],
+            "Subjonctif Présent": ["peigne", "peignes", "peigne", "peignions", "peigniez", "peignent"],
+            "Subjonctif Passé": ["aie peint", "aies peint", "ait peint", "ayons peint", "ayez peint", "aient peint"],
+            "Impératif Présent": ["peins", "peignons", "peignez"],
+            "Participe Présent": ["peignant"],
+            "Participe Passé": ["peint"]
+        }
+    },
+    {
+        "infinitive": "obtenir",
+        "conjugations": {
+            "Présent": ["obtiens", "obtiens", "obtient", "obtenons", "obtenez", "obtiennent"],
+            "Imparfait": ["obtenais", "obtenais", "obtenait", "obtenions", "obteniez", "obtenaient"],
+            "Passé Composé": ["ai obtenu", "as obtenu", "a obtenu", "avons obtenu", "avez obtenu", "ont obtenu"],
+            "Plus-que-parfait": ["avais obtenu", "avais obtenu", "avait obtenu", "avions obtenu", "aviez obtenu", "avaient obtenu"],
+            "Futur Simple": ["obtiendrai", "obtiendras", "obtiendra", "obtiendrons", "obtiendrez", "obtiendront"],
+            "Futur Antérieur": ["aurai obtenu", "auras obtenu", "aura obtenu", "aurons obtenu", "aurez obtenu", "auront obtenu"],
+            "Conditionnel Présent": ["obtiendrais", "obtiendrais", "obtiendrait", "obtiendrions", "obtiendriez", "obtiendraient"],
+            "Conditionnel Passé": ["aurais obtenu", "aurais obtenu", "aurait obtenu", "aurions obtenu", "auriez obtenu", "auraient obtenu"],
+            "Subjonctif Présent": ["obtienne", "obtiennes", "obtienne", "obtenions", "obteniez", "obtiennent"],
+            "Subjonctif Passé": ["aie obtenu", "aies obtenu", "ait obtenu", "ayons obtenu", "ayez obtenu", "aient obtenu"],
+            "Impératif Présent": ["obtiens", "obtenons", "obtenez"],
+            "Participe Présent": ["obtenant"],
+            "Participe Passé": ["obtenu"]
+        }
+    },
+    {
+        "infinitive": "servir",
+        "conjugations": {
+            "Présent": ["sers", "sers", "sert", "servons", "servez", "servent"],
+            "Imparfait": ["servais", "servais", "servait", "servions", "serviez", "servaient"],
+            "Passé Composé": ["ai servi", "as servi", "a servi", "avons servi", "avez servi", "ont servi"],
+            "Plus-que-parfait": ["avais servi", "avais servi", "avait servi", "avions servi", "aviez servi", "avaient servi"],
+            "Futur Simple": ["servirai", "serviras", "servira", "servirons", "servirez", "serviront"],
+            "Futur Antérieur": ["aurai servi", "auras servi", "aura servi", "aurons servi", "aurez servi", "auront servi"],
+            "Conditionnel Présent": ["servirais", "servirais", "servirait", "servirions", "serviriez", "serviraient"],
+            "Conditionnel Passé": ["aurais servi", "aurais servi", "aurait servi", "aurions servi", "auriez servi", "auraient servi"],
+            "Subjonctif Présent": ["serve", "serves", "serve", "servions", "serviez", "servent"],
+            "Subjonctif Passé": ["aie servi", "aies servi", "ait servi", "ayons servi", "ayez servi", "aient servi"],
+            "Impératif Présent": ["sers", "servons", "servez"],
+            "Participe Présent": ["servant"],
+            "Participe Passé": ["servi"]
+        }
+    },
+    {
+        "infinitive": "sentir",
+        "conjugations": {
+            "Présent": ["sens", "sens", "sent", "sentons", "sentez", "sentent"],
+            "Imparfait": ["sentais", "sentais", "sentait", "sentions", "sentiez", "sentaient"],
+            "Passé Composé": ["ai senti", "as senti", "a senti", "avons senti", "avez senti", "ont senti"],
+            "Plus-que-parfait": ["avais senti", "avais senti", "avait senti", "avions senti", "aviez senti", "avaient senti"],
+            "Futur Simple": ["sentirai", "sentiras", "sentira", "sentirons", "sentirez", "sentiront"],
+            "Futur Antérieur": ["aurai senti", "auras senti", "aura senti", "aurons senti", "aurez senti", "auront senti"],
+            "Conditionnel Présent": ["sentirais", "sentirais", "sentirait", "sentirions", "sentiriez", "sentiraient"],
+            "Conditionnel Passé": ["aurais senti", "aurais senti", "aurait senti", "aurions senti", "auriez senti", "auraient senti"],
+            "Subjonctif Présent": ["sente", "sentes", "sente", "sentions", "sentiez", "sentent"],
+            "Subjonctif Passé": ["aie senti", "aies senti", "ait senti", "ayons senti", "ayez senti", "aient senti"],
+            "Impératif Présent": ["sens", "sentons", "sentez"],
+            "Participe Présent": ["sentant"],
+            "Participe Passé": ["senti"]
+        }
+    },
+    {
+        "infinitive": "promettre",
+        "conjugations": {
+            "Présent": ["promets", "promets", "promet", "promettons", "promettez", "promettent"],
+            "Imparfait": ["promettais", "promettais", "promettait", "promettions", "promettiez", "promettaient"],
+            "Passé Composé": ["ai promis", "as promis", "a promis", "avons promis", "avez promis", "ont promis"],
+            "Plus-que-parfait": ["avais promis", "avais promis", "avait promis", "avions promis", "aviez promis", "avaient promis"],
+            "Futur Simple": ["promettrai", "promettras", "promettra", "promettrons", "promettrez", "promettront"],
+            "Futur Antérieur": ["aurai promis", "auras promis", "aura promis", "aurons promis", "aurez promis", "auront promis"],
+            "Conditionnel Présent": ["promettrais", "promettrais", "promettrait", "promettrions", "promettriez", "promettraient"],
+            "Conditionnel Passé": ["aurais promis", "aurais promis", "aurait promis", "aurions promis", "auriez promis", "auraient promis"],
+            "Subjonctif Présent": ["promette", "promettes", "promette", "promettions", "promettiez", "promettent"],
+            "Subjonctif Passé": ["aie promis", "aies promis", "ait promis", "ayons promis", "ayez promis", "aient promis"],
+            "Impératif Présent": ["promets", "promettons", "promettez"],
+            "Participe Présent": ["promettant"],
+            "Participe Passé": ["promis"]
+        }
+    },
+    {
+        "infinitive": "arriver",
+        "conjugations": {
+          "Présent": ["arrive", "arrives", "arrive", "arrivons", "arrivez", "arrivent"],
+          "Imparfait": ["arrivais", "arrivais", "arrivait", "arrivions", "arriviez", "arrivaient"],
+          "Passé Composé": ["suis arrivé", "es arrivé", "est arrivé", "sommes arrivés", "êtes arrivés", "sont arrivés"],
+          "Futur Simple": ["arriverai", "arriveras", "arrivera", "arriverons", "arriverez", "arriveront"],
+          "Conditionnel Présent": ["arriverais", "arriverais", "arriverait", "arriverions", "arriveriez", "arriveraient"],
+          "Subjonctif Présent": ["arrive", "arrives", "arrive", "arrivions", "arriviez", "arrivent"]
+        }
+      },
+      {
+        "infinitive": "descendre",
+        "conjugations": {
+          "Présent": ["descends", "descends", "descend", "descendons", "descendez", "descendent"],
+          "Imparfait": ["descendais", "descendais", "descendait", "descendions", "descendiez", "descendaient"],
+          "Passé Composé": ["suis descendu", "es descendu", "est descendu", "sommes descendus", "êtes descendus", "sont descendus"],
+          "Futur Simple": ["descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront"],
+          "Conditionnel Présent": ["descendrais", "descendrais", "descendrait", "descendrions", "descendriez", "descendraient"],
+          "Subjonctif Présent": ["descende", "descendes", "descende", "descendions", "descendiez", "descendent"]
+        }
+      },
+      {
+        "infinitive": "acheter",
+        "conjugations": {
+          "Présent": ["achète", "achètes", "achète", "achetons", "achetez", "achètent"],
+          "Imparfait": ["achetais", "achetais", "achetait", "achetions", "achetiez", "achetaient"],
+          "Passé Composé": ["ai acheté", "as acheté", "a acheté", "avons acheté", "avez acheté", "ont acheté"],
+          "Futur Simple": ["achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront"],
+          "Conditionnel Présent": ["achèterais", "achèterais", "achèterait", "achèterions", "achèteriez", "achèteraient"],
+          "Subjonctif Présent": ["achète", "achètes", "achète", "achetions", "achetiez", "achètent"]
+        }
+      },
+      {
+        "infinitive": "vendre",
+        "conjugations": {
+          "Présent": ["vends", "vends", "vend", "vendons", "vendez", "vendent"],
+          "Imparfait": ["vendais", "vendais", "vendait", "vendions", "vendiez", "vendaient"],
+          "Passé Composé": ["ai vendu", "as vendu", "a vendu", "avons vendu", "avez vendu", "ont vendu"],
+          "Futur Simple": ["vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront"],
+          "Conditionnel Présent": ["vendrais", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient"],
+          "Subjonctif Présent": ["vende", "vendes", "vende", "vendions", "vendiez", "vendent"]
+        }
+      },
+      {
+        "infinitive": "regarder",
+        "conjugations": {
+          "Présent": ["regarde", "regardes", "regarde", "regardons", "regardez", "regardent"],
+          "Imparfait": ["regardais", "regardais", "regardait", "regardions", "regardiez", "regardaient"],
+          "Passé Composé": ["ai regardé", "as regardé", "a regardé", "avons regardé", "avez regardé", "ont regardé"],
+          "Futur Simple": ["regarderai", "regarderas", "regardera", "regarderons", "regarderez", "regarderont"],
+          "Conditionnel Présent": ["regarderais", "regarderais", "regarderait", "regarderions", "regarderiez", "regarderaient"],
+          "Subjonctif Présent": ["regarde", "regardes", "regarde", "regardions", "regardiez", "regardent"]
+        }
+      },
+      {
+        "infinitive": "travailler",
+        "conjugations": {
+          "Présent": ["travaille", "travailles", "travaille", "travaillons", "travaillez", "travaillent"],
+          "Imparfait": ["travaillais", "travaillais", "travaillait", "travaillions", "travailliez", "travaillaient"],
+          "Passé Composé": ["ai travaillé", "as travaillé", "a travaillé", "avons travaillé", "avez travaillé", "ont travaillé"],
+          "Futur Simple": ["travaillerai", "travailleras", "travaillera", "travaillerons", "travaillerez", "travailleront"],
+          "Conditionnel Présent": ["travaillerais", "travaillerais", "travaillerait", "travaillerions", "travailleriez", "travailleraient"],
+          "Subjonctif Présent": ["travaille", "travailles", "travaille", "travaillions", "travailliez", "travaillent"]
+        }
+      },
+      {
+        "infinitive": "commencer",
+        "conjugations": {
+          "Présent": ["commence", "commences", "commence", "commençons", "commencez", "commencent"],
+          "Imparfait": ["commençais", "commençais", "commençait", "commencions", "commenciez", "commençaient"],
+          "Passé Composé": ["ai commencé", "as commencé", "a commencé", "avons commencé", "avez commencé", "ont commencé"],
+          "Futur Simple": ["commencerai", "commenceras", "commencera", "commencerons", "commencerez", "commenceront"],
+          "Conditionnel Présent": ["commencerais", "commencerais", "commencerait", "commencerions", "commenceriez", "commenceraient"],
+          "Subjonctif Présent": ["commence", "commences", "commence", "commencions", "commenciez", "commencent"]
+        }
+      },
+      {
+        "infinitive": "chercher",
+        "conjugations": {
+          "Présent": ["cherche", "cherches", "cherche", "cherchons", "cherchez", "cherchent"],
+          "Imparfait": ["cherchais", "cherchais", "cherchait", "cherchions", "cherchiez", "cherchaient"],
+          "Passé Composé": ["ai cherché", "as cherché", "a cherché", "avons cherché", "avez cherché", "ont cherché"],
+          "Futur Simple": ["chercherai", "chercheras", "cherchera", "chercherons", "chercherez", "chercheront"],
+          "Conditionnel Présent": ["chercherais", "chercherais", "chercherait", "chercherions", "chercheriez", "chercheraient"],
+          "Subjonctif Présent": ["cherche", "cherches", "cherche", "cherchions", "cherchiez", "cherchent"]
+        }
+      },
+      {
+        "infinitive": "réussir",
+        "conjugations": {
+          "Présent": ["réussis", "réussis", "réussit", "réussissons", "réussissez", "réussissent"],
+          "Imparfait": ["réussissais", "réussissais", "réussissait", "réussissions", "réussissiez", "réussissaient"],
+          "Passé Composé": ["ai réussi", "as réussi", "a réussi", "avons réussi", "avez réussi", "ont réussi"],
+          "Futur Simple": ["réussirai", "réussiras", "réussira", "réussirons", "réussirez", "réussiront"],
+          "Conditionnel Présent": ["réussirais", "réussirais", "réussirait", "réussirions", "réussiriez", "réussiraient"],
+          "Subjonctif Présent": ["réussisse", "réussisses", "réussisse", "réussissions", "réussissiez", "réussissent"]
+        }
+      },
+      {
+        "infinitive": "entendre",
+        "conjugations": {
+          "Présent": ["entends", "entends", "entend", "entendons", "entendez", "entendent"],
+          "Imparfait": ["entendais", "entendais", "entendait", "entendions", "entendiez", "entendaient"],
+          "Passé Composé": ["ai entendu", "as entendu", "a entendu", "avons entendu", "avez entendu", "ont entendu"],
+          "Futur Simple": ["entendrai", "entendras", "entendra", "entendrons", "entendrez", "entendront"],
+          "Conditionnel Présent": ["entendrais", "entendrais", "entendrait", "entendrions", "entendriez", "entendraient"],
+          "Subjonctif Présent": ["entende", "entendes", "entende", "entendions", "entendiez", "entendent"]
+        }
+    },
+    {
+        "infinitive": "attendre",
+        "conjugations": {
+          "Présent": ["attends", "attends", "attend", "attendons", "attendez", "attendent"],
+          "Imparfait": ["attendais", "attendais", "attendait", "attendions", "attendiez", "attendaient"],
+          "Passé Composé": ["ai attendu", "as attendu", "a attendu", "avons attendu", "avez attendu", "ont attendu"],
+          "Futur Simple": ["attendrai", "attendras", "attendra", "attendrons", "attendrez", "attendront"],
+          "Conditionnel Présent": ["attendrais", "attendrais", "attendrait", "attendrions", "attendriez", "attendraient"],
+          "Subjonctif Présent": ["attende", "attendes", "attende", "attendions", "attendiez", "attendent"]
+        }
+      },
+      {
+        "infinitive": "perdre",
+        "conjugations": {
+          "Présent": ["perds", "perds", "perd", "perdons", "perdez", "perdent"],
+          "Imparfait": ["perdais", "perdais", "perdait", "perdions", "perdiez", "perdaient"],
+          "Passé Composé": ["ai perdu", "as perdu", "a perdu", "avons perdu", "avez perdu", "ont perdu"],
+          "Futur Simple": ["perdrai", "perdras", "perdra", "perdrons", "perdrez", "perdront"],
+          "Conditionnel Présent": ["perdrais", "perdrais", "perdrait", "perdrions", "perdriez", "perdraient"],
+          "Subjonctif Présent": ["perde", "perdes", "perde", "perdions", "perdiez", "perdent"]
+        }
+      },
+      {
+        "infinitive": "rendre",
+        "conjugations": {
+          "Présent": ["rends", "rends", "rend", "rendons", "rendez", "rendent"],
+          "Imparfait": ["rendais", "rendais", "rendait", "rendions", "rendiez", "rendaient"],
+          "Passé Composé": ["ai rendu", "as rendu", "a rendu", "avons rendu", "avez rendu", "ont rendu"],
+          "Futur Simple": ["rendrai", "rendras", "rendra", "rendrons", "rendrez", "rendront"],
+          "Conditionnel Présent": ["rendrais", "rendrais", "rendrait", "rendrions", "rendriez", "rendraient"],
+          "Subjonctif Présent": ["rende", "rendes", "rende", "rendions", "rendiez", "rendent"]
+        }
+      },
+      {
+        "infinitive": "répondre",
+        "conjugations": {
+          "Présent": ["réponds", "réponds", "répond", "répondons", "répondez", "répondent"],
+          "Imparfait": ["répondais", "répondais", "répondait", "répondions", "répondiez", "répondaient"],
+          "Passé Composé": ["ai répondu", "as répondu", "a répondu", "avons répondu", "avez répondu", "ont répondu"],
+          "Futur Simple": ["répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront"],
+          "Conditionnel Présent": ["répondrais", "répondrais", "répondrait", "répondrions", "répondriez", "répondraient"],
+          "Subjonctif Présent": ["réponde", "répondes", "réponde", "répondions", "répondiez", "répondent"]
+        }
+      },
+      {
+        "infinitive": "vendre",
+        "conjugations": {
+          "Présent": ["vends", "vends", "vend", "vendons", "vendez", "vendent"],
+          "Imparfait": ["vendais", "vendais", "vendait", "vendions", "vendiez", "vendaient"],
+          "Passé Composé": ["ai vendu", "as vendu", "a vendu", "avons vendu", "avez vendu", "ont vendu"],
+          "Futur Simple": ["vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront"],
+          "Conditionnel Présent": ["vendrais", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient"],
+          "Subjonctif Présent": ["vende", "vendes", "vende", "vendions", "vendiez", "vendent"]
+        }
+      },
+      {
+        "infinitive": "descendre",
+        "conjugations": {
+          "Présent": ["descends", "descends", "descend", "descendons", "descendez", "descendent"],
+          "Imparfait": ["descendais", "descendais", "descendait", "descendions", "descendiez", "descendaient"],
+          "Passé Composé": ["ai descendu", "as descendu", "a descendu", "avons descendu", "avez descendu", "ont descendu"],
+          "Futur Simple": ["descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront"],
+          "Conditionnel Présent": ["descendrais", "descendrais", "descendrait", "descendrions", "descendriez", "descendraient"],
+          "Subjonctif Présent": ["descende", "descendes", "descende", "descendions", "descendiez", "descendent"]
+        }
+      },
+      {
+        "infinitive": "attraper",
+        "conjugations": {
+          "Présent": ["attrape", "attrapes", "attrape", "attrapons", "attrapez", "attrapent"],
+          "Imparfait": ["attrapais", "attrapais", "attrapait", "attrapions", "attrapiez", "attrapaient"],
+          "Passé Composé": ["ai attrapé", "as attrapé", "a attrapé", "avons attrapé", "avez attrapé", "ont attrapé"],
+          "Futur Simple": ["attraperai", "attraperas", "attrapera", "attraperons", "attraperez", "attraperont"],
+          "Conditionnel Présent": ["attraperais", "attraperais", "attraperait", "attraperions", "attraperiez", "attraperaient"],
+          "Subjonctif Présent": ["attrape", "attrapes", "attrape", "attrapions", "attrapiez", "attrapent"]
+        }
+      },
+      {
+        "infinitive": "apporter",
+        "conjugations": {
+          "Présent": ["apporte", "apportes", "apporte", "apportons", "apportez", "apportent"],
+          "Imparfait": ["apportais", "apportais", "apportait", "apportions", "apportiez", "apportaient"],
+          "Passé Composé": ["ai apporté", "as apporté", "a apporté", "avons apporté", "avez apporté", "ont apporté"],
+          "Futur Simple": ["apporterai", "apporteras", "apportera", "apporterons", "apporterez", "apporteront"],
+          "Conditionnel Présent": ["apporterais", "apporterais", "apporterait", "apporterions", "apporteriez", "apporteraient"],
+          "Subjonctif Présent": ["apporte", "apportes", "apporte", "apportions", "apportiez", "apportent"]
+        }
+      },
+      {
+        "infinitive": "emporter",
+        "conjugations": {
+          "Présent": ["emporte", "emportes", "emporte", "emportons", "emportez", "emportent"],
+          "Imparfait": ["emportais", "emportais", "emportait", "emportions", "emportiez", "emportaient"],
+          "Passé Composé": ["ai emporté", "as emporté", "a emporté", "avons emporté", "avez emporté", "ont emporté"],
+          "Futur Simple": ["emporterai", "emporteras", "emportera", "emporterons", "emporterez", "emporteront"],
+          "Conditionnel Présent": ["emporterais", "emporterais", "emporterait", "emporterions", "emporteriez", "emporteraient"],
+          "Subjonctif Présent": ["emporte", "emportes", "emporte", "emportions", "emportiez", "emportent"]
+        }
+      },
+      {
+        "infinitive": "gagner",
+        "conjugations": {
+          "Présent": ["gagne", "gagnes", "gagne", "gagnons", "gagnez", "gagnent"],
+          "Imparfait": ["gagnais", "gagnais", "gagnait", "gagnions", "gagniez", "gagnaient"],
+          "Passé Composé": ["ai gagné", "as gagné", "a gagné", "avons gagné", "avez gagné", "ont gagné"],
+          "Futur Simple": ["gagnerai", "gagneras", "gagnera", "gagnerons", "gagnerez", "gagneront"],
+          "Conditionnel Présent": ["gagnerais", "gagnerais", "gagnerait", "gagnerions", "gagneriez", "gagneraient"],
+          "Subjonctif Présent": ["gagne", "gagnes", "gagne", "gagnions", "gagniez", "gagnent"]
+        }
+      },
+      {
+        "infinitive": "dépenser",
+        "conjugations": {
+          "Présent": ["dépense", "dépenses", "dépense", "dépensons", "dépensez", "dépensent"],
+          "Imparfait": ["dépensais", "dépensais", "dépensait", "dépensions", "dépensiez", "dépensaient"],
+          "Passé Composé": ["ai dépensé", "as dépensé", "a dépensé", "avons dépensé", "avez dépensé", "ont dépensé"],
+          "Futur Simple": ["dépenserai", "dépenseras", "dépensera", "dépenserons", "dépenserez", "dépenseront"],
+          "Conditionnel Présent": ["dépenserais", "dépenserais", "dépenserait", "dépenserions", "dépenseriez", "dépenseraient"],
+          "Subjonctif Présent": ["dépense", "dépenses", "dépense", "dépensions", "dépensiez", "dépensent"]
+        }
+      },
+      {
+        "infinitive": "économiser",
+        "conjugations": {
+          "Présent": ["économise", "économises", "économise", "économisons", "économisez", "économisent"],
+          "Imparfait": ["économisais", "économisais", "économisait", "économisions", "économisiez", "économisaient"],
+          "Passé Composé": ["ai économisé", "as économisé", "a économisé", "avons économisé", "avez économisé", "ont économisé"],
+          "Futur Simple": ["économiserai", "économiseras", "économisera", "économiserons", "économiserez", "économiseront"],
+          "Conditionnel Présent": ["économiserais", "économiserais", "économiserait", "économiserions", "économiseriez", "économiseraient"],
+          "Subjonctif Présent": ["économise", "économises", "économise", "économisions", "économisiez", "économisent"]
+        }
+      },
+      {
+        "infinitive": "investir",
+        "conjugations": {
+          "Présent": ["investis", "investis", "investit", "investissons", "investissez", "investissent"],
+          "Imparfait": ["investissais", "investissais", "investissait", "investissions", "investissiez", "investissaient"],
+          "Passé Composé": ["ai investi", "as investi", "a investi", "avons investi", "avez investi", "ont investi"],
+          "Futur Simple": ["investirai", "investiras", "investira", "investirons", "investirez", "investiront"],
+          "Conditionnel Présent": ["investirais", "investirais", "investirait", "investirions", "investiriez", "investiraient"],
+          "Subjonctif Présent": ["investisse", "investisses", "investisse", "investissions", "investissiez", "investissent"]
+        }
+      },
+      {
+        "infinitive": "nager",
+        "conjugations": {
+          "Présent": ["nage", "nages", "nage", "nageons", "nagez", "nagent"],
+          "Imparfait": ["nageais", "nageais", "nageait", "nagions", "nagiez", "nageaient"],
+          "Passé Composé": ["ai nagé", "as nagé", "a nagé", "avons nagé", "avez nagé", "ont nagé"],
+          "Futur Simple": ["nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront"],
+          "Conditionnel Présent": ["nagerais", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient"],
+          "Subjonctif Présent": ["nage", "nages", "nage", "nagions", "nagiez", "nagent"]
+        }
+      },
+      {
+        "infinitive": "grandir",
+        "conjugations": {
+          "Présent": ["grandis", "grandis", "grandit", "grandissons", "grandissez", "grandissent"],
+          "Imparfait": ["grandissais", "grandissais", "grandissait", "grandissions", "grandissiez", "grandissaient"],
+          "Passé Composé": ["ai grandi", "as grandi", "a grandi", "avons grandi", "avez grandi", "ont grandi"],
+          "Futur Simple": ["grandirai", "grandiras", "grandira", "grandirons", "grandirez", "grandiront"],
+          "Conditionnel Présent": ["grandirais", "grandirais", "grandirait", "grandirions", "grandiriez", "grandiraient"],
+          "Subjonctif Présent": ["grandisse", "grandisses", "grandisse", "grandissions", "grandissiez", "grandissent"]
+        }
+      },
+      {
+        "infinitive": "choisir",
+        "conjugations": {
+          "Présent": ["choisis", "choisis", "choisit", "choisissons", "choisissez", "choisissent"],
+          "Imparfait": ["choisissais", "choisissais", "choisissait", "choisissions", "choisissiez", "choisissaient"],
+          "Passé Composé": ["ai choisi", "as choisi", "a choisi", "avons choisi", "avez choisi", "ont choisi"],
+          "Futur Simple": ["choisirai", "choisiras", "choisira", "choisirons", "choisirez", "choisiront"],
+          "Conditionnel Présent": ["choisirais", "choisirais", "choisirait", "choisirions", "choisiriez", "choisiraient"],
+          "Subjonctif Présent": ["choisisse", "choisisses", "choisisse", "choisissions", "choisissiez", "choisissent"]
+        }
+      },
+      {
+        "infinitive": "réfléchir",
+        "conjugations": {
+          "Présent": ["réfléchis", "réfléchis", "réfléchit", "réfléchissons", "réfléchissez", "réfléchissent"],
+          "Imparfait": ["réfléchissais", "réfléchissais", "réfléchissait", "réfléchissions", "réfléchissiez", "réfléchissaient"],
+          "Passé Composé": ["ai réfléchi", "as réfléchi", "a réfléchi", "avons réfléchi", "avez réfléchi", "ont réfléchi"],
+          "Futur Simple": ["réfléchirai", "réfléchiras", "réfléchira", "réfléchirons", "réfléchirez", "réfléchiront"],
+          "Conditionnel Présent": ["réfléchirais", "réfléchirais", "réfléchirait", "réfléchirions", "réfléchiriez", "réfléchiraient"],
+          "Subjonctif Présent": ["réfléchisse", "réfléchisses", "réfléchisse", "réfléchissions", "réfléchissiez", "réfléchissent"]
+        }
+      },
+      {
+        "infinitive": "agir",
+        "conjugations": {
+          "Présent": ["agis", "agis", "agit", "agissons", "agissez", "agissent"],
+          "Imparfait": ["agissais", "agissais", "agissait", "agissions", "agissiez", "agissaient"],
+          "Passé Composé": ["ai agi", "as agi", "a agi", "avons agi", "avez agi", "ont agi"],
+          "Futur Simple": ["agirai", "agiras", "agira", "agirons", "agirez", "agiront"],
+          "Conditionnel Présent": ["agirais", "agirais", "agirait", "agirions", "agiriez", "agiraient"],
+          "Subjonctif Présent": ["agisse", "agisses", "agisse", "agissions", "agissiez", "agissent"]
+        }
+      },
+      {
+        "infinitive": "bâtir",
+        "conjugations": {
+          "Présent": ["bâtis", "bâtis", "bâtit", "bâtissons", "bâtissez", "bâtissent"],
+          "Imparfait": ["bâtissais", "bâtissais", "bâtissait", "bâtissions", "bâtissiez", "bâtissaient"],
+          "Passé Composé": ["ai bâti", "as bâti", "a bâti", "avons bâti", "avez bâti", "ont bâti"],
+          "Futur Simple": ["bâtirai", "bâtiras", "bâtira", "bâtirons", "bâtirez", "bâtiront"],
+          "Conditionnel Présent": ["bâtirais", "bâtirais", "bâtirait", "bâtirions", "bâtiriez", "bâtiraient"],
+          "Subjonctif Présent": ["bâtisse", "bâtisses", "bâtisse", "bâtissions", "bâtissiez", "bâtissent"]
+        }
+      },
+      {
+        "infinitive": "rougir",
+        "conjugations": {
+          "Présent": ["rougis", "rougis", "rougit", "rougissons", "rougissez", "rougissent"],
+          "Imparfait": ["rougissais", "rougissais", "rougissait", "rougissions", "rougissiez", "rougissaient"],
+          "Passé Composé": ["ai rougi", "as rougi", "a rougi", "avons rougi", "avez rougi", "ont rougi"],
+          "Futur Simple": ["rougirai", "rougiras", "rougira", "rougirons", "rougirez", "rougiront"],
+          "Conditionnel Présent": ["rougirais", "rougirais", "rougirait", "rougirions", "rougiriez", "rougiraient"],
+          "Subjonctif Présent": ["rougisse", "rougisses", "rougisse", "rougissions", "rougissiez", "rougissent"]
+        }
+      },
+      {
+        "infinitive": "nourrir",
+        "conjugations": {
+          "Présent": ["nourris", "nourris", "nourrit", "nourrissons", "nourrissez", "nourrissent"],
+          "Imparfait": ["nourrissais", "nourrissais", "nourrissait", "nourrissions", "nourrissiez", "nourrissaient"],
+          "Passé Composé": ["ai nourri", "as nourri", "a nourri", "avons nourri", "avez nourri", "ont nourri"],
+          "Futur Simple": ["nourrirai", "nourriras", "nourrira", "nourrirons", "nourrirez", "nourriront"],
+          "Conditionnel Présent": ["nourrirais", "nourrirais", "nourrirait", "nourririons", "nourririez", "nourriraient"],
+          "Subjonctif Présent": ["nourrisse", "nourrisses", "nourrisse", "nourrissions", "nourrissiez", "nourrissent"]
+        }
+      },
+      {
+        "infinitive": "saisir",
+        "conjugations": {
+          "Présent": ["saisis", "saisis", "saisit", "saisissons", "saisissez", "saisissent"],
+          "Imparfait": ["saisissais", "saisissais", "saisissait", "saisissions", "saisissiez", "saisissaient"],
+          "Passé Composé": ["ai saisi", "as saisi", "a saisi", "avons saisi", "avez saisi", "ont saisi"],
+          "Futur Simple": ["saisirai", "saisiras", "saisira", "saisirons", "saisirez", "saisiront"],
+          "Conditionnel Présent": ["saisirais", "saisirais", "saisirait", "saisirions", "saisiriez", "saisiraient"],
+          "Subjonctif Présent": ["saisisse", "saisisses", "saisisse", "saisissions", "saisissiez", "saisissent"]
+        }
+      },
+      {
+        "infinitive": "atterrir",
+        "conjugations": {
+          "Présent": ["atterris", "atterris", "atterrit", "atterrissons", "atterrissez", "atterrissent"],
+          "Imparfait": ["atterrissais", "atterrissais", "atterrissait", "atterrissions", "atterrissiez", "atterrissaient"],
+          "Passé Composé": ["ai atterri", "as atterri", "a atterri", "avons atterri", "avez atterri", "ont atterri"],
+          "Futur Simple": ["atterrirai", "atterriras", "atterrira", "atterrirons", "atterrirez", "atterriront"],
+          "Conditionnel Présent": ["atterrirais", "atterrirais", "atterrirait", "atterririons", "atterririez", "atterriraient"],
+          "Subjonctif Présent": ["atterrisse", "atterrisses", "atterrisse", "atterrissions", "atterrissiez", "atterrissent"]
+        }
+      },
+      {
+        "infinitive": "dormir",
+        "conjugations": {
+          "Présent": ["dors", "dors", "dort", "dormons", "dormez", "dorment"],
+          "Imparfait": ["dormais", "dormais", "dormait", "dormions", "dormiez", "dormaient"],
+          "Passé Composé": ["ai dormi", "as dormi", "a dormi", "avons dormi", "avez dormi", "ont dormi"],
+          "Futur Simple": ["dormirai", "dormiras", "dormira", "dormirons", "dormirez", "dormiront"],
+          "Conditionnel Présent": ["dormirais", "dormirais", "dormirait", "dormirions", "dormiriez", "dormiraient"],
+          "Subjonctif Présent": ["dorme", "dormes", "dorme", "dormions", "dormiez", "dorment"]
+        }
+      },
+      {
+        "infinitive": "mentir",
+        "conjugations": {
+          "Présent": ["mens", "mens", "ment", "mentons", "mentez", "mentent"],
+          "Imparfait": ["mentais", "mentais", "mentait", "mentions", "mentiez", "mentaient"],
+          "Passé Composé": ["ai menti", "as menti", "a menti", "avons menti", "avez menti", "ont menti"],
+          "Futur Simple": ["mentirai", "mentiras", "mentira", "mentirons", "mentirez", "mentiront"],
+          "Conditionnel Présent": ["mentirais", "mentirais", "mentirait", "mentirions", "mentiriez", "mentiraient"],
+          "Subjonctif Présent": ["mente", "mentes", "mente", "mentions", "mentiez", "mentent"]
+        }
+      },
+      {
+        "infinitive": "partir",
+        "conjugations": {
+          "Présent": ["pars", "pars", "part", "partons", "partez", "partent"],
+          "Imparfait": ["partais", "partais", "partait", "partions", "partiez", "partaient"],
+          "Passé Composé": ["suis parti(e)", "es parti(e)", "est parti(e)", "sommes parti(e)s", "êtes parti(e)(s)", "sont parti(e)s"],
+          "Futur Simple": ["partirai", "partiras", "partira", "partirons", "partirez", "partiront"],
+          "Conditionnel Présent": ["partirais", "partirais", "partirait", "partirions", "partiriez", "partiraient"],
+          "Subjonctif Présent": ["parte", "partes", "parte", "partions", "partiez", "partent"]
+        }
+      },
+      {
+        "infinitive": "sentir",
+        "conjugations": {
+          "Présent": ["sens", "sens", "sent", "sentons", "sentez", "sentent"],
+          "Imparfait": ["sentais", "sentais", "sentait", "sentions", "sentiez", "sentaient"],
+          "Passé Composé": ["ai senti", "as senti", "a senti", "avons senti", "avez senti", "ont senti"],
+          "Futur Simple": ["sentirai", "sentiras", "sentira", "sentirons", "sentirez", "sentiront"],
+          "Conditionnel Présent": ["sentirais", "sentirais", "sentirait", "sentirions", "sentiriez", "sentiraient"],
+          "Subjonctif Présent": ["sente", "sentes", "sente", "sentions", "sentiez", "sentent"]
+        }
+      },
+      {
+        "infinitive": "sortir",
+        "conjugations": {
+          "Présent": ["sors", "sors", "sort", "sortons", "sortez", "sortent"],
+          "Imparfait": ["sortais", "sortais", "sortait", "sortions", "sortiez", "sortaient"],
+          "Passé Composé": ["suis sorti(e)", "es sorti(e)", "est sorti(e)", "sommes sorti(e)s", "êtes sorti(e)s", "sont sorti(e)s"],
+          "Futur Simple": ["sortirai", "sortiras", "sortira", "sortirons", "sortirez", "sortiront"],
+          "Conditionnel Présent": ["sortirais", "sortirais", "sortirait", "sortirions", "sortiriez", "sortiraient"],
+          "Subjonctif Présent": ["sorte", "sortes", "sorte", "sortions", "sortiez", "sortent"]
+        }
+      },
+      {
+        "infinitive": "couvrir",
+        "conjugations": {
+          "Présent": ["couvre", "couvres", "couvre", "couvrons", "couvrez", "couvrent"],
+          "Imparfait": ["couvrais", "couvrais", "couvrait", "couvrions", "couvriez", "couvraient"],
+          "Passé Composé": ["ai couvert", "as couvert", "a couvert", "avons couvert", "avez couvert", "ont couvert"],
+          "Futur Simple": ["couvrirai", "couvriras", "couvrira", "couvrirons", "couvrirez", "couvriront"],
+          "Conditionnel Présent": ["couvrirais", "couvrirais", "couvrirait", "couvririons", "couvririez", "couvriraient"],
+          "Subjonctif Présent": ["couvre", "couvres", "couvre", "couvrions", "couvriez", "couvrent"]
+        }
+      },
+      {
+        "infinitive": "découvrir",
+        "conjugations": {
+          "Présent": ["découvre", "découvres", "découvre", "découvrons", "découvrez", "découvrent"],
+          "Imparfait": ["découvrais", "découvrais", "découvrait", "découvrions", "découvriez", "découvraient"],
+          "Passé Composé": ["ai découvert", "as découvert", "a découvert", "avons découvert", "avez découvert", "ont découvert"],
+          "Futur Simple": ["découvrirai", "découvriras", "découvrira", "découvrirons", "découvrirez", "découvriront"],
+          "Conditionnel Présent": ["découvrirais", "découvrirais", "découvrirait", "découvririons", "découvririez", "découvriraient"],
+          "Subjonctif Présent": ["découvre", "découvres", "découvre", "découvrions", "découvriez", "découvrent"]
+        }
+      },
+      {
+        "infinitive": "offrir",
+        "conjugations": {
+          "Présent": ["offre", "offres", "offre", "offrons", "offrez", "offrent"],
+          "Imparfait": ["offrais", "offrais", "offrait", "offrions", "offriez", "offraient"],
+          "Passé Composé": ["ai offert", "as offert", "a offert", "avons offert", "avez offert", "ont offert"],
+          "Futur Simple": ["offrirai", "offriras", "offrira", "offrirons", "offrirez", "offriront"],
+          "Conditionnel Présent": ["offrirais", "offrirais", "offrirait", "offririons", "offririez", "offriraient"],
+          "Subjonctif Présent": ["offre", "offres", "offre", "offrions", "offriez", "offrent"]
+        }
+      },
+      {
+        "infinitive": "souffrir",
+        "conjugations": {
+          "Présent": ["souffre", "souffres", "souffre", "souffrons", "souffrez", "souffrent"],
+          "Imparfait": ["souffrais", "souffrais", "souffrait", "souffrions", "souffriez", "souffraient"],
+          "Passé Composé": ["ai souffert", "as souffert", "a souffert", "avons souffert", "avez souffert", "ont souffert"],
+          "Futur Simple": ["souffrirai", "souffriras", "souffrira", "souffrirons", "souffrirez", "souffriront"],
+          "Conditionnel Présent": ["souffrirais", "souffrirais", "souffrirait", "souffririons", "souffririez", "souffriraient"],
+          "Subjonctif Présent": ["souffre", "souffres", "souffre", "souffrions", "souffriez", "souffrent"]
+        }
+      },
+      {
+        "infinitive": "cueillir",
+        "conjugations": {
+          "Présent": ["cueille", "cueilles", "cueille", "cueillons", "cueillez", "cueillent"],
+          "Imparfait": ["cueillais", "cueillais", "cueillait", "cueillions", "cueilliez", "cueillaient"],
+          "Passé Composé": ["ai cueilli", "as cueilli", "a cueilli", "avons cueilli", "avez cueilli", "ont cueilli"],
+          "Futur Simple": ["cueillerai", "cueilleras", "cueillera", "cueillerons", "cueillerez", "cueilleront"],
+          "Conditionnel Présent": ["cueillirais", "cueillirais", "cueillirait", "cueillirions", "cueilliriez", "cueilleraient"],
+          "Subjonctif Présent": ["cueille", "cueilles", "cueille", "cueillions", "cueilliez", "cueillent"]
+        }
+      },
+      {
+        "infinitive": "accueillir",
+        "conjugations": {
+          "Présent": ["accueille", "accueilles", "accueille", "accueillons", "accueillez", "accueillent"],
+          "Imparfait": ["accueillais", "accueillais", "accueillait", "accueillions", "accueilliez", "accueillaient"],
+          "Passé Composé": ["ai accueilli", "as accueilli", "a accueilli", "avons accueilli", "avez accueilli", "ont accueilli"],
+          "Futur Simple": ["accueillerai", "accueilleras", "accueillera", "accueillerons", "accueillerez", "accueilleront"],
+          "Conditionnel Présent": ["accueillirais", "accueillirais", "accueillirait", "accueillirions", "accueilliriez", "accueilleraient"],
+          "Subjonctif Présent": ["accueille", "accueilles", "accueille", "accueillions", "accueilliez", "accueillent"]
+        }
+      },
+      {
+        "infinitive": "assaillir",
+        "conjugations": {
+          "Présent": ["assaillis", "assaillis", "assaillit", "assaillons", "assaillez", "assaillent"],
+          "Imparfait": ["assaillais", "assaillais", "assaillait", "assaillions", "assailliez", "assaillaient"],
+          "Passé Composé": ["ai assailli", "as assailli", "a assailli", "avons assailli", "avez assailli", "ont assailli"],
+          "Futur Simple": ["assaillirai", "assailliras", "assaillira", "assaillirons", "assaillirez", "assailliront"],
+          "Conditionnel Présent": ["assaillirais", "assaillirais", "assaillirait", "assaillirions", "assailliriez", "assailliraient"],
+          "Subjonctif Présent": ["assaillisse", "assaillisses", "assaillît", "assaillissions", "assaillissiez", "assaillissent"]
+        }
+      },
+      {
+        "infinitive": "trassaillir",
+        "conjugations": {
+          "Présent": ["trassaillis", "trassaillis", "trassaillit", "trassaillons", "trassailles", "trassaillent"],
+          "Imparfait": ["trassaillais", "trassaillais", "trassaillait", "trassaillions", "trassailliez", "trassaillaient"],
+          "Passé Composé": ["ai trassailli", "as trassailli", "a trassailli", "avons trassailli", "avez trassailli", "ont trassailli"],
+          "Futur Simple": ["trassaillirai", "trassailliras", "trassaillira", "trassaillirons", "trassaillirez", "trassailliront"],
+          "Conditionnel Présent": ["trassaillirais", "trassaillirais", "trassaillirait", "trassaillirions", "trassailliriez", "trassailleraient"],
+          "Subjonctif Présent": ["trassaillisse", "trassaillisses", "trassaillît", "trassaillissions", "trassaillissiez", "trassaillissent"]
+        }
+      },
+      {
+        "infinitive": "épanouir",
+        "conjugations": {
+          "Présent": ["épanouis", "épanouis", "épanouit", "épanouissons", "épanouissez", "épanouissent"],
+          "Imparfait": ["épanouissais", "épanouissais", "épanouissait", "épanouissions", "épanouissiez", "épanouissaient"],
+          "Passé Composé": ["ai épanoui", "as épanoui", "a épanoui", "avons épanoui", "avez épanoui", "ont épanoui"],
+          "Futur Simple": ["épanouirai", "épanouiras", "épanouira", "épanouirons", "épanouirez", "épanouiront"],
+          "Conditionnel Présent": ["épanouirais", "épanouirais", "épanouirait", "épanouirions", "épanouiriez", "épanouiraient"],
+          "Subjonctif Présent": ["épanouisse", "épanouisses", "épanouît", "épanouissions", "épanouissiez", "épanouissent"]
+        }
+      },
+      {
+        "infinitive": "gribouiller",
+        "conjugations": {
+          "Présent": ["gribouille", "gribouilles", "gribouille", "gribouillons", "gribouillez", "gribouillent"],
+          "Imparfait": ["gribouillais", "gribouillais", "gribouillait", "gribouillions", "gribouilliez", "gribouillaient"],
+          "Passé Composé": ["ai gribouillé", "as gribouillé", "a gribouillé", "avons gribouillé", "avez gribouillé", "ont gribouillé"],
+          "Futur Simple": ["gribouillerai", "gribouilleras", "gribouillera", "gribouillerons", "gribouillerez", "gribouilleront"],
+          "Conditionnel Présent": ["gribouillerais", "gribouillerais", "gribouillerait", "gribouillerions", "gribouilleriez", "gribouilleraient"],
+          "Subjonctif Présent": ["gribouille", "gribouilles", "gribouille", "gribouillions", "gribouilliez", "gribouillent"]
+        }
+      },
+      {
+        "infinitive": "s'évader",
+        "conjugations": {
+          "Présent": ["m'évade", "t'évades", "s'évade", "nous évadons", "vous évadez", "ils évadent"],
+          "Imparfait": ["m'évadais", "t'évadais", "s'évadait", "nous évadions", "vous évadiez", "ils évadaient"],
+          "Passé Composé": ["me suis évadé(e)", "t'es évadé(e)", "s'est évadé(e)", "nous sommes évadé(e)s", "vous êtes évadé(e)s", "ils se sont évadé(e)s"],
+          "Futur Simple": ["m'évaderai", "t'évaderas", "s'évadra", "nous évaderons", "vous évaderez", "ils s'évaderont"],
+          "Conditionnel Présent": ["m'évaderais", "t'évaderais", "s'évaderait", "nous évaderions", "vous évaderiez", "ils s'évaderaient"],
+          "Subjonctif Présent": ["m'évade", "t'évades", "s'évade", "nous évadions", "vous évadiez", "ils évadent"]
+        }
+      },
+      {
+        "infinitive": "chuchoter",
+        "conjugations": {
+          "Présent": ["chuchote", "chuchotes", "chuchote", "chuchotons", "chuchotez", "chuchotent"],
+          "Imparfait": ["chuchotais", "chuchotais", "chuchotait", "chuchotions", "chuchotiez", "chuchotaient"],
+          "Passé Composé": ["ai chuchoté", "as chuchoté", "a chuchoté", "avons chuchoté", "avez chuchoté", "ont chuchoté"],
+          "Futur Simple": ["chuchoterai", "chuchoteras", "chuchotera", "chuchoterons", "chuchoterez", "chuchoteront"],
+          "Conditionnel Présent": ["chuchoterais", "chuchoterais", "chuchoterait", "chuchoterions", "chuchoteriez", "chuchoteraient"],
+          "Subjonctif Présent": ["chuchote", "chuchotes", "chuchote", "chuchotions", "chuchotiez", "chuchotent"]
+        }
+      },
+      {
+        "infinitive": "s'émerveiller",
+        "conjugations": {
+          "Présent": ["m'émerveille", "t'émerveilles", "s'émerveille", "nous émerveillons", "vous émerveillez", "ils émerveillent"],
+          "Imparfait": ["m'émerveillais", "t'émerveillais", "s'émerveillait", "nous émerveillions", "vous émerveilliez", "ils émerveillaient"],
+          "Passé Composé": ["me suis émerveillé(e)", "t'es émerveillé(e)", "s'est émerveillé(e)", "nous sommes émerveillé(e)s", "vous êtes émerveillé(e)s", "ils se sont émerveillé(e)s"],
+          "Futur Simple": ["m'émerveillerai", "t'émerveilleras", "s'émerveillera", "nous émerveillerons", "vous émerveillerez", "ils s'émerveilleront"],
+          "Conditionnel Présent": ["m'émerveillerais", "t'émerveillerais", "s'émerveillerait", "nous émerveillerions", "vous émerveilleriez", "ils s'émerveilleraient"],
+          "Subjonctif Présent": ["m'émerveille", "t'émerveilles", "s'émerveille", "nous émerveillions", "vous émerveilliez", "ils émerveillent"]
+        }
+      },
+      {
+        "infinitive": "vagabonder",
+        "conjugations": {
+          "Présent": ["vagabonde", "vagabondes", "vagabonde", "vagabondons", "vagabondez", "vagabondent"],
+          "Imparfait": ["vagabondais", "vagabondais", "vagabondait", "vagabondions", "vagabondiez", "vagabondaient"],
+          "Passé Composé": ["ai vagabondé", "as vagabondé", "a vagabondé", "avons vagabondé", "avez vagabondé", "ont vagabondé"],
+          "Futur Simple": ["vagabonderai", "vagabonderas", "vagabondera", "vagabonderons", "vagabonderez", "vagabonderont"],
+          "Conditionnel Présent": ["vagabonderais", "vagabonderais", "vagabonderait", "vagabonderions", "vagabonderiez", "vagabonderaient"],
+          "Subjonctif Présent": ["vagabonde", "vagabondes", "vagabonde", "vagabondions", "vagabondiez", "vagabondent"]
+        }
+      },
+      {
+        "infinitive": "bafouiller",
+        "conjugations": {
+          "Présent": ["bafouille", "bafouilles", "bafouille", "bafouillons", "bafouillez", "bafouillent"],
+          "Imparfait": ["bafouillais", "bafouillais", "bafouillait", "bafouillions", "bafouilliez", "bafouillaient"],
+          "Passé Composé": ["ai bafouillé", "as bafouillé", "a bafouillé", "avons bafouillé", "avez bafouillé", "ont bafouillé"],
+          "Futur Simple": ["bafouillerai", "bafouilleras", "bafouillera", "bafouillerons", "bafouillerez", "bafouilleront"],
+          "Conditionnel Présent": ["bafouillerais", "bafouillerais", "bafouillerait", "bafouillerions", "bafouilleriez", "bafouilleraient"],
+          "Subjonctif Présent": ["bafouille", "bafouilles", "bafouille", "bafouillions", "bafouilliez", "bafouillent"]
+        }
+      },
+      {
+        "infinitive": "s'éclipser",
+        "conjugations": {
+          "Présent": ["m'éclipse", "t'éclipses", "s'éclipse", "nous nous éclipsons", "vous vous éclipsiez", "ils s'éclipsent"],
+          "Imparfait": ["m'éclipsais", "t'éclipsais", "s'éclipsait", "nous nous éclipions", "vous vous éclipiez", "ils s'éclipsaient"],
+          "Passé Composé": ["me suis éclipsé(e)", "t'es éclipsé(e)", "s'est éclipsé(e)", "nous sommes éclipsé(e)s", "vous êtes éclipsé(e)s", "ils se sont éclipsé(e)s"],
+          "Futur Simple": ["m'éclipserai", "t'éclipseras", "s'éclipsera", "nous nous éclipserons", "vous vous éclipserez", "ils s'éclipseront"],
+          "Conditionnel Présent": ["m'éclipserais", "t'éclipserais", "s'éclipserait", "nous nous éclipserions", "vous vous éclipseriez", "ils s'éclipseraient"],
+          "Subjonctif Présent": ["m'éclipse", "t'éclipses", "s'éclipse", "nous nous éclipsons", "vous vous éclipsiez", "ils s'éclipsent"]
+        }
+      },
+      {
+        "infinitive": "raturer",
+        "conjugations": {
+          "Présent": ["rature", "ratures", "rature", "raturons", "raturez", "raturent"],
+          "Imparfait": ["raturais", "raturais", "raturait", "raturions", "raturiez", "raturaient"],
+          "Passé Composé": ["ai raturé", "as raturé", "a raturé", "avons raturé", "avez raturé", "ont raturé"],
+          "Futur Simple": ["raturerai", "ratureras", "raturera", "raturerons", "raturerez", "ratureront"],
+          "Conditionnel Présent": ["raturerais", "raturerais", "raturerait", "raturerions", "ratureriez", "ratureraient"],
+          "Subjonctif Présent": ["rature", "ratures", "rature", "raturions", "raturiez", "raturent"]
+        }
+      },
+      {
+        "infinitive": "s'ébrouer",
+        "conjugations": {
+          "Présent": ["m'ébroue", "t'ébroues", "s'ébroue", "nous nous ébrouons", "vous vous ébrouez", "ils s'ébrouent"],
+          "Imparfait": ["m'ébrouais", "t'ébrouais", "s'ébrouait", "nous nous ébrouions", "vous vous ébrouiez", "ils s'ébrouaient"],
+          "Passé Composé": ["me suis ébroué(e)", "t'es ébroué(e)", "s'est ébroué(e)", "nous sommes ébroué(e)s", "vous êtes ébroué(e)s", "ils se sont ébroué(e)s"],
+          "Futur Simple": ["m'ébrouerai", "t'ébroueras", "s'ébrouera", "nous nous ébrouerons", "vous vous ébrouerez", "ils s'ébroueront"],
+          "Conditionnel Présent": ["m'ébrouerais", "t'ébrouerais", "s'ébrouerait", "nous nous ébrouerions", "vous vous ébroueriez", "ils s'ébroueraient"],
+          "Subjonctif Présent": ["m'ébroue", "t'ébroues", "s'ébroue", "nous nous ébrouions", "vous vous ébrouiez", "ils s'ébrouent"]
+        }
+      },
+      {
+        "infinitive": "zezayer",
+        "conjugations": {
+          "Présent": ["zezaye", "zezayes", "zezaye", "zezayons", "zezayez", "zezayent"],
+          "Imparfait": ["zezayais", "zezayais", "zezayait", "zezayions", "zezayiez", "zezayaient"],
+          "Passé Composé": ["ai zezayé", "as zezayé", "a zezayé", "avons zezayé", "avez zezayé", "ont zezayé"],
+          "Futur Simple": ["zezayerai", "zezayeras", "zezayera", "zezayerons", "zezayerez", "zezayeront"],
+          "Conditionnel Présent": ["zezayerais", "zezayerais", "zezayerait", "zezayerions", "zezayeriez", "zezayeraient"],
+          "Subjonctif Présent": ["zezaye", "zezayes", "zezaye", "zezayions", "zezayiez", "zezayent"]
+        }
+      },
+      {
+        "infinitive": "s'empiffrer",
+        "conjugations": {
+          "Présent": ["m'empiffre", "t'empiffres", "s'empiffre", "nous nous empiffons", "vous vous empiffez", "ils s'empiffrent"],
+          "Imparfait": ["m'empiffrais", "t'empiffrais", "s'empiffrait", "nous nous empiffions", "vous vous empiffiez", "ils s'empiffraient"],
+          "Passé Composé": ["me suis empiffré(e)", "t'es empiffré(e)", "s'est empiffré(e)", "nous sommes empiffré(e)s", "vous êtes empiffré(e)s", "ils se sont empiffré(e)s"],
+          "Futur Simple": ["m'empiffrerai", "t'empiffreras", "s'empiffrera", "nous nous empiffrerons", "vous vous empiffrerez", "ils s'empiffreront"],
+          "Conditionnel Présent": ["m'empiffrerais", "t'empiffrerais", "s'empiffrerait", "nous nous empiffrerions", "vous vous empiffreriez", "ils s'empiffreraient"],
+          "Subjonctif Présent": ["m'empiffre", "t'empiffres", "s'empiffre", "nous nous empiffions", "vous vous empiffiez", "ils s'empiffrent"]
+        }
+      },
+      {
+        "infinitive": "languir",
+        "conjugations": {
+          "Présent": ["languis", "languis", "languit", "languissons", "languissez", "languissent"],
+          "Imparfait": ["languissais", "languissais", "languissait", "languissions", "languissiez", "languissaient"],
+          "Passé Composé": ["ai langui", "as langui", "a langui", "avons langui", "avez langui", "ont langui"],
+          "Futur Simple": ["languirai", "languiras", "languira", "languirons", "languirez", "languiront"],
+          "Conditionnel Présent": ["languirais", "languirais", "languirait", "languirions", "languiriez", "languiraient"],
+          "Subjonctif Présent": ["languisse", "languisses", "languît", "languissions", "languissiez", "languissent"]
+        }
+      },
+      {
+        "infinitive": "s'esquiver",
+        "conjugations": {
+          "Présent": ["m'esquive", "t'esquives", "s'esquive", "nous nous esquivons", "vous vous esquivez", "ils s'esquivent"],
+          "Imparfait": ["m'esquivais", "t'esquivais", "s'esquivait", "nous nous esquivions", "vous vous esquiviez", "ils s'esquivaient"],
+          "Passé Composé": ["me suis esquivé(e)", "t'es esquivé(e)", "s'est esquivé(e)", "nous sommes esquivé(e)s", "vous êtes esquivé(e)s", "ils se sont esquivé(e)s"],
+          "Futur Simple": ["m'esquiverai", "t'esquiveras", "s'esquivera", "nous nous esquiverons", "vous vous esquiverez", "ils s'esquiveront"],
+          "Conditionnel Présent": ["m'esquiverais", "t'esquiverais", "s'esquiverait", "nous nous esquiverions", "vous vous esquiveriez", "ils s'esquiveraient"],
+          "Subjonctif Présent": ["m'esquive", "t'esquives", "s'esquive", "nous nous esquivions", "vous vous esquiviez", "ils s'esquivent"]
+        }
+      },
+      {
+        "infinitive": "s'extasier",
+        "conjugations": {
+          "Présent": ["m'extasie", "t'extasies", "s'extasie", "nous nous extasions", "vous vous extasiez", "ils s'extasient"],
+          "Imparfait": ["m'extasiais", "t'extasiais", "s'extasiait", "nous nous extasions", "vous vous extasiez", "ils s'extasiaient"],
+          "Passé Composé": ["me suis extasié(e)", "t'es extasié(e)", "s'est extasié(e)", "nous sommes extasié(e)s", "vous êtes extasié(e)s", "ils se sont extasié(e)s"],
+          "Futur Simple": ["m'extasierai", "t'extasieras", "s'extasiera", "nous nous extasierons", "vous vous extasierez", "ils s'extasieront"],
+          "Conditionnel Présent": ["m'extasierais", "t'extasierais", "s'extasierait", "nous nous extasierions", "vous vous extasieriez", "ils s'extasieraient"],
+          "Subjonctif Présent": ["m'extasie", "t'extasies", "s'extasie", "nous nous extasions", "vous vous extasiez", "ils s'extasient"]
+        }
+      },
+      {
+        "infinitive": "se méprendre",
+        "conjugations": {
+          "Présent": ["me méprends", "te méprends", "se méprend", "nous nous méprenons", "vous vous méprenez", "ils se méprennent"],
+          "Imparfait": ["me méprenais", "te méprenais", "se méprenait", "nous nous méprenions", "vous vous mépreniez", "ils se méprenaient"],
+          "Passé Composé": ["me suis mépris", "t'es mépris", "s'est mépris", "nous nous sommes mépris", "vous vous êtes mépris", "ils se sont mépris"],
+          "Futur Simple": ["me méprendrai", "te méprendras", "se méprendra", "nous nous méprendrons", "vous vous méprendrez", "ils se méprendront"],
+          "Conditionnel Présent": ["me méprendrais", "te méprendrais", "se méprendrait", "nous nous méprendrions", "vous vous méprendriez", "ils se méprendraient"],
+          "Subjonctif Présent": ["me méprenne", "te méprennes", "se méprenne", "nous nous méprenions", "vous vous mépreniez", "ils se méprennent"]
+        }
+      },
+      {
+        "infinitive": "s'envoler",
+        "conjugations": {
+          "Présent": ["m'envole", "t'envoles", "s'envole", "nous nous envolons", "vous vous envolez", "ils s'envolent"],
+          "Imparfait": ["m'envolais", "t'envolais", "s'envolait", "nous nous envolions", "vous vous envoliez", "ils s'envolaient"],
+          "Passé Composé": ["me suis envolé(e)", "t'es envolé(e)", "s'est envolé(e)", "nous sommes envolé(e)s", "vous êtes envolé(e)s", "ils se sont envolé(e)s"],
+          "Futur Simple": ["m'envolerai", "t'envoleras", "s'envolera", "nous nous envolerons", "vous vous envolerez", "ils s'envoleront"],
+          "Conditionnel Présent": ["m'envolerais", "t'envolerais", "s'envolerait", "nous nous envolerions", "vous vous envoleriez", "ils s'envoleraient"],
+          "Subjonctif Présent": ["m'envole", "t'envoles", "s'envole", "nous nous envolions", "vous vous envoliez", "ils s'envolent"]
+        }
+      },
+      {
+        "infinitive": "se raviser",
+        "conjugations": {
+          "Présent": ["me ravise", "te ravises", "se ravise", "nous nous ravisons", "vous vous ravisez", "ils se ravisent"],
+          "Imparfait": ["me ravisais", "te ravisais", "se ravisait", "nous nous ravisions", "vous vous ravisiez", "ils se ravisaient"],
+          "Passé Composé": ["me suis ravisé(e)", "t'es ravisé(e)", "s'est ravisé(e)", "nous nous sommes ravisé(e)s", "vous êtes ravisé(e)s", "ils se sont ravisé(e)s"],
+          "Futur Simple": ["me raviserai", "te raviseras", "se ravisera", "nous nous raviserons", "vous vous raviserez", "ils se raviseront"],
+          "Conditionnel Présent": ["me raviserais", "te raviserais", "se raviserait", "nous nous raviserions", "vous vous raviseriez", "ils se raviseraient"],
+          "Subjonctif Présent": ["me ravise", "te ravises", "se ravise", "nous nous ravisions", "vous vous ravisiez", "ils se ravisent"]
+        }
+      },
+      {
+        "infinitive": "se désister",
+        "conjugations": {
+          "Présent": ["me désiste", "te désistes", "se désiste", "nous nous désistons", "vous vous désistez", "ils se désistent"],
+          "Imparfait": ["me désistais", "te désistais", "se désistait", "nous nous désistions", "vous vous désistiez", "ils se désistaient"],
+          "Passé Composé": ["me suis désisté(e)", "t'es désisté(e)", "s'est désisté(e)", "nous nous sommes désisté(e)s", "vous êtes désisté(e)s", "ils se sont désisté(e)s"],
+          "Futur Simple": ["me désisterai", "te désisteras", "se désistera", "nous nous désisterons", "vous vous désisterez", "ils se désisteront"],
+          "Conditionnel Présent": ["me désisterais", "te désisterais", "se désisterait", "nous nous désisterions", "vous vous désisteriez", "ils se désisteraient"],
+          "Subjonctif Présent": ["me désiste", "te désistes", "se désiste", "nous nous désistions", "vous vous désistiez", "ils se désistent"]
+        }
+      },
+      {
+        "infinitive": "se ressaisir",
+        "conjugations": {
+          "Présent": ["me ressaisis", "te ressaisis", "se ressaisit", "nous nous ressaisissons", "vous vous ressaisissez", "ils se ressaisissent"],
+          "Imparfait": ["me ressaisissais", "te ressaisissais", "se ressaisissait", "nous nous ressaisissions", "vous vous ressaisissiez", "ils se ressaisissaient"],
+          "Passé Composé": ["me suis ressaisi(e)", "t'es ressaisi(e)", "s'est ressaisi(e)", "nous nous sommes ressaisi(e)s", "vous êtes ressaisi(e)s", "ils se sont ressaisi(e)s"],
+          "Futur Simple": ["me ressaisirai", "te ressaisiras", "se ressaisira", "nous nous ressaisirons", "vous vous ressaisirez", "ils se ressaisiront"],
+          "Conditionnel Présent": ["me ressaisirais", "te ressaisirais", "se ressaisirait", "nous nous ressaisirions", "vous vous ressaisiriez", "ils se ressaisiraient"],
+          "Subjonctif Présent": ["me ressaisisse", "te ressaisisses", "se ressaisisse", "nous nous ressaisissions", "vous vous ressaisissiez", "ils se ressaisissent"]
+        }
+      },
+      {
+        "infinitive": "s'éclipser",
+        "conjugations": {
+          "Présent": ["m'éclipse", "t'éclipses", "s'éclipse", "nous nous éclipsons", "vous vous éclipsiez", "ils s'éclipsent"],
+          "Imparfait": ["m'éclipsais", "t'éclipsais", "s'éclipsait", "nous nous éclipsions", "vous vous éclipsiez", "ils s'éclipsaient"],
+          "Passé Composé": ["me suis éclipsé(e)", "t'es éclipsé(e)", "s'est éclipsé(e)", "nous nous sommes éclipsé(e)s", "vous êtes éclipsé(e)s", "ils se sont éclipsé(e)s"],
+          "Futur Simple": ["m'éclipserai", "t'éclipseras", "s'éclipsera", "nous nous éclipserons", "vous vous éclipserez", "ils s'éclipseront"],
+          "Conditionnel Présent": ["m'éclipserais", "t'éclipserais", "s'éclipserait", "nous nous éclipserions", "vous vous éclipseriez", "ils s'éclipseraient"],
+          "Subjonctif Présent": ["m'éclipse", "t'éclipses", "s'éclipse", "nous nous éclipsions", "vous vous éclipsiez", "ils s'éclipsent"]
+        }
+      },
+      {
+        "infinitive": "manger",
+        "conjugations": {
+          "Présent": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
+          "Imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
+          "Passé Composé": ["ai mangé", "as mangé", "a mangé", "avons mangé", "avez mangé", "ont mangé"],
+          "Futur Simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
+          "Conditionnel Présent": ["mangerais", "mangerais", "mangerait", "mangerions", "mangeriez", "mangeraient"],
+          "Subjonctif Présent": ["mange", "manges", "mange", "mangions", "mangiez", "mangent"]
+        }
+      },
+      {
+        "infinitive": "attendre",
+        "conjugations": {
+          "Présent": ["attends", "attends", "attend", "attendons", "attendez", "attendent"],
+          "Imparfait": ["attendais", "attendais", "attendait", "attendions", "attendiez", "attendaient"],
+          "Passé Composé": ["ai attendu", "as attendu", "a attendu", "avons attendu", "avez attendu", "ont attendu"],
+          "Futur Simple": ["attendrai", "attendras", "attendra", "attendrons", "attendrez", "attendront"],
+          "Conditionnel Présent": ["attendrais", "attendrais", "attendrait", "attendrions", "attendriez", "attendraient"],
+          "Subjonctif Présent": ["attende", "attendes", "attende", "attendions", "attendiez", "attendent"]
+        }
+      },
+      {
+        "infinitive": "perdre",
+        "conjugations": {
+          "Présent": ["perds", "perds", "perd", "perdons", "perdez", "perdent"],
+          "Imparfait": ["perdais", "perdais", "perdait", "perdions", "perdiez", "perdaient"],
+          "Passé Composé": ["ai perdu", "as perdu", "a perdu", "avons perdu", "avez perdu", "ont perdu"],
+          "Futur Simple": ["perdrai", "perdras", "perdra", "perdrons", "perdrez", "perdront"],
+          "Conditionnel Présent": ["perdrais", "perdrais", "perdrait", "perdrions", "perdriez", "perdraient"],
+          "Subjonctif Présent": ["perde", "perdes", "perde", "perdions", "perdiez", "perdent"]
+        }
+      },
+      {
+        "infinitive": "rendre",
+        "conjugations": {
+          "Présent": ["rends", "rends", "rend", "rendons", "rendez", "rendent"],
+          "Imparfait": ["rendais", "rendais", "rendait", "rendions", "rendiez", "rendaient"],
+          "Passé Composé": ["ai rendu", "as rendu", "a rendu", "avons rendu", "avez rendu", "ont rendu"],
+          "Futur Simple": ["rendrai", "rendras", "rendra", "rendrons", "rendrez", "rendront"],
+          "Conditionnel Présent": ["rendrais", "rendrais", "rendrait", "rendrions", "rendriez", "rendraient"],
+          "Subjonctif Présent": ["rende", "rendes", "rende", "rendions", "rendiez", "rendent"]
+        }
+      },
+      {
+        "infinitive": "répondre",
+        "conjugations": {
+          "Présent": ["réponds", "réponds", "répond", "répondons", "répondez", "répondent"],
+          "Imparfait": ["répondais", "répondais", "répondait", "répondions", "répondiez", "répondaient"],
+          "Passé Composé": ["ai répondu", "as répondu", "a répondu", "avons répondu", "avez répondu", "ont répondu"],
+          "Futur Simple": ["répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront"],
+          "Conditionnel Présent": ["répondrais", "répondrais", "répondrait", "répondrions", "répondriez", "répondraient"],
+          "Subjonctif Présent": ["réponde", "répondes", "réponde", "répondions", "répondiez", "répondent"]
+        }
+      },
+      {
+        "infinitive": "vendre",
+        "conjugations": {
+          "Présent": ["vends", "vends", "vend", "vendons", "vendez", "vendent"],
+          "Imparfait": ["vendais", "vendais", "vendait", "vendions", "vendiez", "vendaient"],
+          "Passé Composé": ["ai vendu", "as vendu", "a vendu", "avons vendu", "avez vendu", "ont vendu"],
+          "Futur Simple": ["vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront"],
+          "Conditionnel Présent": ["vendrais", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient"],
+          "Subjonctif Présent": ["vende", "vendes", "vende", "vendions", "vendiez", "vendent"]
+        }
+      },
+       
         {
-            "infinitive": "aller",
-            "conjugations": {
-                "Présent": ["vais", "vas", "va", "allons", "allez", "vont"],
-                "Imparfait": ["allais", "allais", "allait", "allions", "alliez", "allaient"],
-                "Futur Simple": ["irai", "iras", "ira", "irons", "irez", "iront"],
-                "Passé Composé": ["suis allé", "es allé", "est allé", "sommes allés", "êtes allés", "sont allés"]
-            }
+          "infinitive": "descendre",
+          "conjugations": {
+            "Présent": ["descends", "descends", "descend", "descendons", "descendez", "descendent"],
+            "Imparfait": ["descendais", "descendais", "descendait", "descendions", "descendiez", "descendaient"],
+            "Passé Composé": ["ai descendu", "as descendu", "a descendu", "avons descendu", "avez descendu", "ont descendu"],
+            "Futur Simple": ["descendrai", "descendras", "descendra", "descendrons", "descendrez", "descendront"],
+            "Conditionnel Présent": ["descendrais", "descendrais", "descendrait", "descendrions", "descendriez", "descendraient"],
+            "Subjonctif Présent": ["descende", "descendes", "descende", "descendions", "descendiez", "descendent"]
+          }
         },
         {
-            "infinitive": "faire",
-            "conjugations": {
-                "Présent": ["fais", "fais", "fait", "faisons", "faites", "font"],
-                "Imparfait": ["faisais", "faisais", "faisait", "faisions", "faisiez", "faisaient"],
-                "Futur Simple": ["ferai", "feras", "fera", "ferons", "ferez", "feront"],
-                "Passé Composé": ["ai fait", "as fait", "a fait", "avons fait", "avez fait", "ont fait"]
-            }
+          "infinitive": "attraper",
+          "conjugations": {
+            "Présent": ["attrape", "attrapes", "attrape", "attrapons", "attrapez", "attrapent"],
+            "Imparfait": ["attrapais", "attrapais", "attrapait", "attrapions", "attrapiez", "attrapaient"],
+            "Passé Composé": ["ai attrapé", "as attrapé", "a attrapé", "avons attrapé", "avez attrapé", "ont attrapé"],
+            "Futur Simple": ["attraperai", "attraperas", "attrapera", "attraperons", "attraperez", "attraperont"],
+            "Conditionnel Présent": ["attraperais", "attraperais", "attraperait", "attraperions", "attraperiez", "attraperaient"],
+            "Subjonctif Présent": ["attrape", "attrapes", "attrape", "attrapions", "attrapiez", "attrapent"]
+          }
         },
         {
-            "infinitive": "venir",
-            "conjugations": {
-                "Présent": ["viens", "viens", "vient", "venons", "venez", "viennent"],
-                "Imparfait": ["venais", "venais", "venait", "venions", "veniez", "venaient"],
-                "Futur Simple": ["viendrai", "viendras", "viendra", "viendrons", "viendrez", "viendront"],
-                "Passé Composé": ["suis venu", "es venu", "est venu", "sommes venus", "êtes venus", "sont venus"]
-            }
+          "infinitive": "apporter",
+          "conjugations": {
+            "Présent": ["apporte", "apportes", "apporte", "apportons", "apportez", "apportent"],
+            "Imparfait": ["apportais", "apportais", "apportait", "apportions", "apportiez", "apportaient"],
+            "Passé Composé": ["ai apporté", "as apporté", "a apporté", "avons apporté", "avez apporté", "ont apporté"],
+            "Futur Simple": ["apporterai", "apporteras", "apportera", "apporterons", "apporterez", "apporteront"],
+            "Conditionnel Présent": ["apporterais", "apporterais", "apporterait", "apporterions", "apporteriez", "apporteraient"],
+            "Subjonctif Présent": ["apporte", "apportes", "apporte", "apportions", "apportiez", "apportent"]
+          }
         },
         {
-            "infinitive": "voir",
-            "conjugations": {
-                "Présent": ["vois", "vois", "voit", "voyons", "voyez", "voient"],
-                "Imparfait": ["voyais", "voyais", "voyait", "voyions", "voyiez", "voyaient"],
-                "Futur Simple": ["verrai", "verras", "verra", "verrons", "verrez", "verront"],
-                "Passé Composé": ["ai vu", "as vu", "a vu", "avons vu", "avez vu", "ont vu"]
-            }
+          "infinitive": "gagner",
+          "conjugations": {
+            "Présent": ["gagne", "gagnes", "gagne", "gagnons", "gagnez", "gagnent"],
+            "Imparfait": ["gagnais", "gagnais", "gagnait", "gagnions", "gagniez", "gagnaient"],
+            "Passé Composé": ["ai gagné", "as gagné", "a gagné", "avons gagné", "avez gagné", "ont gagné"],
+            "Futur Simple": ["gagnerai", "gagneras", "gagnera", "gagnerons", "gagnerez", "gagneront"],
+            "Conditionnel Présent": ["gagnerais", "gagnerais", "gagnerait", "gagnerions", "gagneriez", "gagneraient"],
+            "Subjonctif Présent": ["gagne", "gagnes", "gagne", "gagnions", "gagniez", "gagnent"]
+          }
         },
         {
-            "infinitive": "savoir",
-            "conjugations": {
-                "Présent": ["sais", "sais", "sait", "savons", "savez", "savent"],
-                "Imparfait": ["savais", "savais", "savait", "savions", "saviez", "savaient"],
-                "Futur Simple": ["saurai", "saura", "sauras", "saurons", "saurez", "sauront"],
-                "Passé Composé": ["ai su", "as su", "a su", "avons su", "avez su", "ont su"]
-            }
+          "infinitive": "dépenser",
+          "conjugations": {
+            "Présent": ["dépenser", "dépenses", "dépense", "dépensons", "dépensez", "dépensent"],
+            "Imparfait": ["dépensais", "dépensais", "dépensait", "dépensions", "dépensiez", "dépensaient"],
+            "Passé Composé": ["ai dépensé", "as dépensé", "a dépensé", "avons dépensé", "avez dépensé", "ont dépensé"],
+            "Futur Simple": ["dépenserai", "dépensras", "dépensra", "dépensrons", "dépensrez", "dépensront"],
+            "Conditionnel Présent": ["dépensrais", "dépensrais", "dépensrait", "dépensrions", "dépensriez", "dépensraient"],
+            "Subjonctif Présent": ["dépense", "dépenses", "dépense", "dépensions", "dépensiez", "dépensent"]
+          }
         },
         {
-            "infinitive": "prendre",
-            "conjugations": {
-                "Présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
-                "Imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
-                "Futur Simple": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
-                "Passé Composé": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"]
-            }
-        },
+          "infinitive": "économiser",
+          "conjugations": {
+            "Présent": ["économise", "économises", "économise", "économisons", "économisez", "économisent"],
+            "Imparfait": ["économisais", "économisais", "économisait", "économisions", "économisiez", "économisaient"],
+            "Passé Composé": ["ai économisé", "as économisé", "a économisé", "avons économisé", "avez économisé", "ont économisé"],
+            "Futur Simple": ["économiserai", "économiseras", "économisera", "économiserons", "économiserez", "économiseront"],
+            "Conditionnel Présent": ["économiserais", "économiserais", "économiserait", "économiserions", "économiseriez", "économiseraient"],
+            "Subjonctif Présent": ["économise", "économises", "économise", "économisions", "économisiez", "économisent"]
+          }
+        }, 
         {
-            "infinitive": "manger",
+            "infinitive": "sauter",
             "conjugations": {
-                "Présent": ["mange", "manges", "mange", "mangeons", "mangez", "mangent"],
-                "Imparfait": ["mangeais", "mangeais", "mangeait", "mangions", "mangiez", "mangeaient"],
-                "Futur Simple": ["mangerai", "mangeras", "mangera", "mangerons", "mangerez", "mangeront"],
-                "Passé Composé": ["ai mangé", "as mangé", "a mangé", "avons mangé", "avez mangé", "ont mangé"]
+              "Présent": ["saute", "sautes", "saute", "sautons", "sautez", "sautent"],
+              "Imparfait": ["sautais", "sautais", "sautait", "sautions", "sautiez", "sautaient"],
+              "Passé Composé": ["ai sauté", "as sauté", "a sauté", "avons sauté", "avez sauté", "ont sauté"],
+              "Futur Simple": ["sauterai", "sauteras", "sautera", "sauterons", "sauterez", "sauteront"],
+              "Conditionnel Présent": ["sauterais", "sauterais", "sauterait", "sauterions", "sauteriez", "sauteraient"],
+              "Subjonctif Présent": ["saute", "sautes", "saute", "sautions", "sautiez", "sautent"]
             }
-        },
-        {
-            "infinitive": "jouer",
+          },
+          {
+            "infinitive": "bondir",
             "conjugations": {
-                "Présent": ["joue", "joues", "joue", "jouons", "jouez", "jouent"],
-                "Imparfait": ["jouais", "jouais", "jouait", "jouions", "jouiez", "jouaient"],
-                "Futur Simple": ["jouerai", "joueras", "jouera", "jouerons", "jouerez", "joueront"],
-                "Passé Composé": ["ai joué", "as joué", "a joué", "avons joué", "avez joué", "ont joué"]
+              "Présent": ["bondis", "bondis", "bondit", "bondissons", "bondissez", "bondissent"],
+              "Imparfait": ["bondissais", "bondissais", "bondissait", "bondissions", "bondissiez", "bondissaient"],
+              "Passé Composé": ["ai bondi", "as bondi", "a bondi", "avons bondi", "avez bondi", "ont bondi"],
+              "Futur Simple": ["bondirai", "bondiras", "bondira", "bondirons", "bondirez", "bondiront"],
+              "Conditionnel Présent": ["bondirais", "bondirais", "bondirait", "bondirions", "bondiriez", "bondiraient"],
+              "Subjonctif Présent": ["bondisse", "bondisses", "bondisse", "bondissions", "bondissiez", "bondissent"]
             }
-        },
-        {
-            "infinitive": "aimer",
+          },
+          {
+            "infinitive": "régner",
             "conjugations": {
-                "Présent": ["aime", "aimes", "aime", "aimons", "aimez", "aiment"],
-                "Imparfait": ["aimais", "aimais", "aimait", "aimions", "aimiez", "aimaient"],
-                "Futur Simple": ["aimerai", "aimeras", "aimera", "aimerons", "aimerez", "aimeront"],
-                "Passé Composé": ["ai aimé", "as aimé", "a aimé", "avons aimé", "avez aimé", "ont aimé"]
+              "Présent": ["règne", "règles", "règne", "régnons", "régnez", "règnent"],
+              "Imparfait": ["régnai", "régnai", "régnait", "régnions", "régniez", "régnaient"],
+              "Passé Composé": ["ai régné", "as régné", "a régné", "avons régné", "avez régné", "ont régné"],
+              "Futur Simple": ["régnerai", "régneras", "régnera", "régnerons", "régnerez", "régneront"],
+              "Conditionnel Présent": ["régnerais", "régnerais", "régnerait", "régnerions", "régneriez", "régneraient"],
+              "Subjonctif Présent": ["règne", "règnes", "règne", "régnions", "régniez", "régnent"]
             }
-        },
-        {
-            "infinitive": "acheter",
+          },
+          {
+            "infinitive": "accélérer",
             "conjugations": {
-                "Présent": ["achète", "achètes", "achète", "achetons", "achetez", "achètent"],
-                "Imparfait": ["achetais", "achetais", "achetait", "achetions", "achetiez", "achetaient"],
-                "Futur Simple": ["achèterai", "achèteras", "achètera", "achèterons", "achèterez", "achèteront"],
-                "Passé Composé": ["ai acheté", "as acheté", "a acheté", "avons acheté", "avez acheté", "ont acheté"]
+              "Présent": ["accélère", "accélères", "accélère", "accélérons", "accélérez", "accélèrent"],
+              "Imparfait": ["accélérais", "accélérais", "accélérait", "accélérions", "accélériez", "accéléraient"],
+              "Passé Composé": ["ai accéléré", "as accéléré", "a accéléré", "avons accéléré", "avez accéléré", "ont accéléré"],
+              "Futur Simple": ["accélérerai", "accéléreras", "accélérera", "accélérerons", "accélérez", "accéléreront"],
+              "Conditionnel Présent": ["accélérerais", "accélérerais", "accélérerait", "accélérerions", "accéléreriez", "accéléreraient"],
+              "Subjonctif Présent": ["accélère", "accélères", "accélère", "accélérions", "accélériez", "accélèrent"]
             }
-        },
-        {
+          },
+          {
+            "infinitive": "apprivoiser",
+            "conjugations": {
+              "Présent": ["apprivoise", "apprivoises", "apprivoise", "apprivoisons", "apprivoisez", "apprivoisent"],
+              "Imparfait": ["apprivoisais", "apprivoisais", "apprivoisait", "apprivoisions", "apprivoisiez", "apprivoisaient"],
+              "Passé Composé": ["ai apprivoisé", "as apprivoisé", "a apprivoisé", "avons apprivoisé", "avez apprivoisé", "ont apprivoisé"],
+              "Futur Simple": ["apprivoiserai", "apprivoiseras", "apprivoisera", "apprivoiserons", "apprivoiserez", "apprivoiseront"],
+              "Conditionnel Présent": ["apprivoiserais", "apprivoiserais", "apprivoiserait", "apprivoiserions", "apprivoiseriez", "apprivoiseraient"],
+              "Subjonctif Présent": ["apprivoise", "apprivoises", "apprivoise", "apprivoisions", "apprivoisiez", "apprivoisent"]
+            }
+          },
+          {
+            "infinitive": "mendier",
+            "conjugations": {
+              "Présent": ["mendie", "mendies", "mendie", "mendions", "mendiez", "mendient"],
+              "Imparfait": ["mendiais", "mendiais", "mendiait", "mendions", "mendiez", "mendiaient"],
+              "Passé Composé": ["ai mendié", "as mendié", "a mendié", "avons mendié", "avez mendié", "ont mendié"],
+              "Futur Simple": ["mendierai", "mendieras", "mendiera", "mendierons", "mendierez", "mendieront"],
+              "Conditionnel Présent": ["mendierais", "mendierais", "mendierait", "mendierions", "mendieriez", "mendieraient"],
+              "Subjonctif Présent": ["mendie", "mendies", "mendie", "mendions", "mendiez", "mendient"]
+            }
+          },
+          {
+            "infinitive": "déchirer",
+            "conjugations": {
+              "Présent": ["déchire", "déchires", "déchire", "déchirons", "déchirez", "déchirent"],
+              "Imparfait": ["déchirais", "déchirais", "déchirait", "déchirions", "déchiriez", "déchiraient"],
+              "Passé Composé": ["ai déchiré", "as déchiré", "a déchiré", "avons déchiré", "avez déchiré", "ont déchiré"],
+              "Futur Simple": ["déchirerai", "déchireras", "déchirera", "déchirerons", "déchirez", "déchireront"],
+              "Conditionnel Présent": ["déchirerais", "déchirerais", "déchirerait", "déchirerions", "déchireriez", "déchiraient"],
+              "Subjonctif Présent": ["déchire", "déchires", "déchire", "déchirions", "déchiriez", "déchirent"]
+            }
+          },
+          {
+            "infinitive": "douter",
+            "conjugations": {
+              "Présent": ["doute", "doutes", "doute", "doutons", "doutez", "doutent"],
+              "Imparfait": ["doutais", "doutais", "doutait", "doutions", "doutiez", "doutaient"],
+              "Passé Composé": ["ai douté", "as douté", "a douté", "avons douté", "avez douté", "ont douté"],
+              "Futur Simple": ["douterai", "douteras", "doutera", "douterons", "douterez", "douteront"],
+              "Conditionnel Présent": ["douterais", "douterais", "douterait", "douterions", "douteriez", "douteraient"],
+              "Subjonctif Présent": ["doute", "doutes", "doute", "doutions", "doutiez", "doutent"]
+            }
+          },
+          {
+            "infinitive": "chercher",
+            "conjugations": {
+              "Présent": ["cherche", "cherches", "cherche", "cherchons", "cherchez", "cherchent"],
+              "Imparfait": ["cherchais", "cherchais", "cherchait", "cherchions", "cherchiez", "cherchaient"],
+              "Passé Composé": ["ai cherché", "as cherché", "a cherché", "avons cherché", "avez cherché", "ont cherché"],
+              "Futur Simple": ["chercherai", "chercheras", "cherchera", "chercherons", "chercherez", "chercheront"],
+              "Conditionnel Présent": ["chercherais", "chercherais", "chercherait", "chercherions", "chercheriez", "chercheraient"],
+              "Subjonctif Présent": ["cherche", "cherches", "cherche", "cherchions", "cherchiez", "cherchent"]
+            }
+          },
+          {
+            "infinitive": "abandonner",
+            "conjugations": {
+              "Présent": ["abandonne", "abandons", "abandonne", "abandonnons", "abandonnez", "abandonnent"],
+              "Imparfait": ["abandonnais", "abandonnais", "abandonnait", "abandonnions", "abandonniez", "abandonnaient"],
+              "Passé Composé": ["ai abandonné", "as abandonné", "a abandonné", "avons abandonné", "avez abandonné", "ont abandonné"],
+              "Futur Simple": ["abandonnerai", "abandonneras", "abandonnera", "abandonnerons", "abandonnerez", "abandonneront"],
+              "Conditionnel Présent": ["abandonnerais", "abandonnerais", "abandonnerait", "abandonnerions", "abandonneriez", "abandonneraient"],
+              "Subjonctif Présent": ["abandonne", "abandones", "abandonne", "abandonnions", "abandonniez", "abandonnent"]
+            }
+          },
+          {
+            "infinitive": "expliquer",
+            "conjugations": {
+              "Présent": ["explique", "explique", "explique", "expliquons", "expliquez", "expliquent"],
+              "Imparfait": ["expliquais", "expliquais", "expliquait", "expliquions", "expliquiez", "expliquaient"],
+              "Passé Composé": ["ai expliqué", "as expliqué", "a expliqué", "avons expliqué", "avez expliqué", "ont expliqué"],
+              "Futur Simple": ["expliquerai", "expliqueras", "expliquera", "expliquerons", "expliquerez", "expliqueront"],
+              "Conditionnel Présent": ["expliquerais", "expliquerais", "expliquerait", "expliquerions", "expliqueriez", "expliqueraient"],
+              "Subjonctif Présent": ["explique", "expliques", "explique", "expliquions", "expliquiez", "expliquent"]
+            }
+          },
+          {
+            "infinitive": "réussir",
+            "conjugations": {
+              "Présent": ["réussis", "réussis", "réussit", "réussissons", "réussissez", "réussissent"],
+              "Imparfait": ["réussissais", "réussissais", "réussissait", "réussissions", "réussissiez", "réussissaient"],
+              "Passé Composé": ["ai réussi", "as réussi", "a réussi", "avons réussi", "avez réussi", "ont réussi"],
+              "Futur Simple": ["réussirai", "réussiras", "réussira", "réussirons", "réussirez", "réussiront"],
+              "Conditionnel Présent": ["réussirais", "réussirais", "réussirait", "réussirions", "réussiriez", "réussiraient"],
+              "Subjonctif Présent": ["réussisse", "réussisses", "réussisse", "réussissions", "réussissiez", "réussissent"]
+            }
+          },
+          {
+            "infinitive": "laver",
+            "conjugations": {
+              "Présent": ["lave", "laves", "lave", "lavons", "lavez", "lavent"],
+              "Imparfait": ["lavais", "lavais", "lavait", "lavions", "laviez", "lavaient"],
+              "Passé Composé": ["ai lavé", "as lavé", "a lavé", "avons lavé", "avez lavé", "ont lavé"],
+              "Futur Simple": ["laverai", "laveras", "lavera", "laverons", "laverez", "laveront"],
+              "Conditionnel Présent": ["laverais", "laverais", "laverait", "laverions", "laveriez", "laveraient"],
+              "Subjonctif Présent": ["lave", "laves", "lave", "lavions", "laviez", "lavent"]
+            }
+          },
+          {
+            "infinitive": "cacher",
+            "conjugations": {
+              "Présent": ["cache", "caches", "cache", "cachons", "cachez", "cachent"],
+              "Imparfait": ["cachais", "cachais", "cachait", "cachions", "cachiez", "cachaient"],
+              "Passé Composé": ["ai caché", "as caché", "a caché", "avons caché", "avez caché", "ont caché"],
+              "Futur Simple": ["cacherai", "cacheras", "cachera", "cacherons", "cacherez", "cacheront"],
+              "Conditionnel Présent": ["cacherais", "cacherais", "cacherait", "cacherions", "cacheriez", "cacheraient"],
+              "Subjonctif Présent": ["cache", "caches", "cache", "cachions", "cachiez", "cachent"]
+            }
+          },
+          {
+            "infinitive": "marcher",
+            "conjugations": {
+              "Présent": ["marche", "marches", "marche", "marchons", "marchez", "marchent"],
+              "Imparfait": ["marchais", "marchais", "marchait", "marchions", "marchiez", "marchaient"],
+              "Passé Composé": ["ai marché", "as marché", "a marché", "avons marché", "avez marché", "ont marché"],
+              "Futur Simple": ["marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront"],
+              "Conditionnel Présent": ["marcherais", "marcherais", "marcherait", "marcherions", "marcheriez", "marcheraient"],
+              "Subjonctif Présent": ["marche", "marches", "marche", "marchions", "marchiez", "marchent"]
+            }
+          },
+          {
             "infinitive": "écouter",
             "conjugations": {
-                "Présent": ["écoute", "écoutes", "écoute", "écoutons", "écoutez", "écoutent"],
-                "Imparfait": ["écoutais", "écoutais", "écoutait", "écoutions", "écoutiez", "écoutaient"],
-                "Futur Simple": ["écouterai", "écouteras", "écoutera", "écouterons", "écouterez", "écouteront"],
-                "Passé Composé": ["ai écouté", "as écouté", "a écouté", "avons écouté", "avez écouté", "ont écouté"]
+              "Présent": ["écoute", "écoutes", "écoute", "écoutons", "écoutez", "écoutent"],
+              "Imparfait": ["écoutais", "écoutais", "écoutait", "écoutions", "écoutiez", "écoutaient"],
+              "Passé Composé": ["ai écouté", "as écouté", "a écouté", "avons écouté", "avez écouté", "ont écouté"],
+              "Futur Simple": ["écouterai", "écouteras", "écoutera", "écouterons", "écouterez", "écouteront"],
+              "Conditionnel Présent": ["écouterais", "écouterais", "écouterait", "écouterions", "écouteriez", "écouteraient"],
+              "Subjonctif Présent": ["écoute", "écoutes", "écoute", "écoutions", "écoutiez", "écoutent"]
             }
-        },
-        {
-            "infinitive": "écrire",
+          },
+          {
+            "infinitive": "décider",
             "conjugations": {
-                "Présent": ["écris", "écris", "écrit", "écrivons", "écrivez", "écrivent"],
-                "Imparfait": ["écrivais", "écrivais", "écrivait", "écrivions", "écriviez", "écrivaient"],
-                "Futur Simple": ["écrirai", "écriras", "écrira", "écrirons", "écrirez", "écriront"],
-                "Passé Composé": ["ai écrit", "as écrit", "a écrit", "avons écrit", "avez écrit", "ont écrit"]
+              "Présent": ["décide", "décides", "décide", "décidons", "décidez", "décident"],
+              "Imparfait": ["décidais", "décidais", "décidait", "décidions", "décidiez", "décidaient"],
+              "Passé Composé": ["ai décidé", "as décidé", "a décidé", "avons décidé", "avez décidé", "ont décidé"],
+              "Futur Simple": ["déciderai", "décideras", "décidera", "déciderons", "déciderez", "décideront"],
+              "Conditionnel Présent": ["déciderais", "déciderais", "déciderait", "déciderions", "décideriez", "décideraient"],
+              "Subjonctif Présent": ["décide", "décides", "décide", "décidions", "décidiez", "décident"]
             }
-        },
-        {
-            "infinitive": "dire",
+          },
+          {
+            "infinitive": "travailler",
             "conjugations": {
-                "Présent": ["dis", "dis", "dit", "disons", "dites", "disent"],
-                "Imparfait": ["disais", "disais", "disait", "disions", "disiez", "disaient"],
-                "Futur Simple": ["dirai", "diras", "dira", "dirons", "direz", "diront"],
-                "Passé Composé": ["ai dit", "as dit", "a dit", "avons dit", "avez dit", "ont dit"]
+              "Présent": ["travaille", "travailles", "travaille", "travaillons", "travaillez", "travaillent"],
+              "Imparfait": ["travaillais", "travaillais", "travaillait", "travaillions", "travailliez", "travaillaient"],
+              "Passé Composé": ["ai travaillé", "as travaillé", "a travaillé", "avons travaillé", "avez travaillé", "ont travaillé"],
+              "Futur Simple": ["travaillerai", "travailleras", "travaillera", "travaillerons", "travaillerez", "travailleront"],
+              "Conditionnel Présent": ["travaillerais", "travaillerais", "travaillerait", "travaillerions", "travailleriez", "travailleraient"],
+              "Subjonctif Présent": ["travaille", "travailles", "travaille", "travaillions", "travailliez", "travaillent"]
             }
-        },
-        {
-            "infinitive": "prendre",
+          },
+          {
+            "infinitive": "répondre",
             "conjugations": {
-                "Présent": ["prends", "prends", "prend", "prenons", "prenez", "prennent"],
-                "Imparfait": ["prenais", "prenais", "prenait", "prenions", "preniez", "prenaient"],
-                "Futur Simple": ["prendrai", "prendras", "prendra", "prendrons", "prendrez", "prendront"],
-                "Passé Composé": ["ai pris", "as pris", "a pris", "avons pris", "avez pris", "ont pris"]
+              "Présent": ["réponds", "réponds", "répond", "répondons", "répondez", "répondent"],
+              "Imparfait": ["répondais", "répondais", "répondait", "répondions", "répondiez", "répondaient"],
+              "Passé Composé": ["ai répondu", "as répondu", "a répondu", "avons répondu", "avez répondu", "ont répondu"],
+              "Futur Simple": ["répondrai", "répondras", "répondra", "répondrons", "répondrez", "répondront"],
+              "Conditionnel Présent": ["répondrais", "répondrais", "répondrait", "répondrions", "répondriez", "répondraient"],
+              "Subjonctif Présent": ["réponde", "répondes", "réponde", "répondions", "répondiez", "répondent"]
             }
-        }
-    ]
-    
-    
+          },
+          {
+            "infinitive": "réaliser",
+            "conjugations": {
+              "Présent": ["réalise", "réalises", "réalise", "réalisons", "réalisez", "réalisent"],
+              "Imparfait": ["réalisais", "réalisais", "réalisait", "réalisions", "réalisiez", "réalisaient"],
+              "Passé Composé": ["ai réalisé", "as réalisé", "a réalisé", "avons réalisé", "avez réalisé", "ont réalisé"],
+              "Futur Simple": ["réaliserai", "réaliseras", "réalisera", "réaliserons", "réaliserez", "réaliseront"],
+              "Conditionnel Présent": ["réaliserais", "réaliserais", "réaliserait", "réaliserions", "réaliseriez", "réaliseraient"],
+              "Subjonctif Présent": ["réalise", "réalises", "réalise", "réalisions", "réalisiez", "réalisent"]
+            }
+          },
+          {
+            "infinitive": "marcher",
+            "conjugations": {
+              "Présent": ["marche", "marches", "marche", "marchons", "marchez", "marchent"],
+              "Imparfait": ["marchais", "marchais", "marchait", "marchions", "marchiez", "marchaient"],
+              "Passé Composé": ["ai marché", "as marché", "a marché", "avons marché", "avez marché", "ont marché"],
+              "Futur Simple": ["marcherai", "marcheras", "marchera", "marcherons", "marcherez", "marcheront"],
+              "Conditionnel Présent": ["marcherais", "marcherais", "marcherait", "marcherions", "marcheriez", "marcheraient"],
+              "Subjonctif Présent": ["marche", "marches", "marche", "marchions", "marchiez", "marchent"]
+            }
+          },
+          {
+            "infinitive": "nager",
+            "conjugations": {
+              "Présent": ["nage", "nages", "nage", "nageons", "nagez", "nagent"],
+              "Imparfait": ["nageais", "nageais", "nageait", "nageions", "nageiez", "nageaient"],
+              "Passé Composé": ["ai nagé", "as nagé", "a nagé", "avons nagé", "avez nagé", "ont nagé"],
+              "Futur Simple": ["nagerai", "nageras", "nagera", "nagerons", "nagerez", "nageront"],
+              "Conditionnel Présent": ["nagerais", "nagerais", "nagerait", "nagerions", "nageriez", "nageraient"],
+              "Subjonctif Présent": ["nage", "nages", "nage", "nagions", "nagiez", "nagent"]
+            }
+          },
+          {
+            "infinitive": "briller",
+            "conjugations": {
+              "Présent": ["brille", "brilles", "brille", "brillons", "brillez", "brillent"],
+              "Imparfait": ["brillais", "brillais", "brillait", "brillions", "brilliez", "brillaient"],
+              "Passé Composé": ["ai brillé", "as brillé", "a brillé", "avons brillé", "avez brillé", "ont brillé"],
+              "Futur Simple": ["brillerai", "brilleras", "brillera", "brillerons", "brillerez", "brilleront"],
+              "Conditionnel Présent": ["brillerais", "brillerais", "brillerait", "brillerions", "brilleriez", "brilleraient"],
+              "Subjonctif Présent": ["brille", "brilles", "brille", "brillions", "brilliez", "brillent"]
+            }
+          },
+          {
+            "infinitive": "répéter",
+            "conjugations": {
+              "Présent": ["répète", "répètes", "répète", "répétons", "répétez", "répètent"],
+              "Imparfait": ["répétais", "répétais", "répétait", "répétions", "répétiez", "répétaient"],
+              "Passé Composé": ["ai répété", "as répété", "a répété", "avons répété", "avez répété", "ont répété"],
+              "Futur Simple": ["répéterai", "répéteras", "répétera", "répéterons", "répéterez", "répéteront"],
+              "Conditionnel Présent": ["répéterais", "répéterais", "répéterait", "répéterions", "répéteriez", "répéteraient"],
+              "Subjonctif Présent": ["répète", "répètes", "répète", "répétions", "répétiez", "répètent"]
+            }
+          },
+          {
+            "infinitive": "vendre",
+            "conjugations": {
+              "Présent": ["vends", "vends", "vend", "vendons", "vendez", "vendent"],
+              "Imparfait": ["vendais", "vendais", "vendait", "vendions", "vendiez", "vendaient"],
+              "Passé Composé": ["ai vendu", "as vendu", "a vendu", "avons vendu", "avez vendu", "ont vendu"],
+              "Futur Simple": ["vendrai", "vendras", "vendra", "vendrons", "vendrez", "vendront"],
+              "Conditionnel Présent": ["vendrais", "vendrais", "vendrait", "vendrions", "vendriez", "vendraient"],
+              "Subjonctif Présent": ["vende", "vendes", "vende", "vendions", "vendiez", "vendent"]
+            }
+          },
+          {
+            "infinitive": "abolir",
+            "conjugations": {
+              "Présent": ["abolis", "abolis", "abolit", "abolissons", "abolissez", "abolissent"],
+              "Imparfait": ["abolissais", "abolissais", "abolissait", "abolissions", "abolissiez", "abolissaient"],
+              "Passé Composé": ["ai aboli", "as aboli", "a aboli", "avons aboli", "avez aboli", "ont aboli"],
+              "Futur Simple": ["abolirai", "aboliras", "abolira", "abolirons", "abolirez", "aboliront"],
+              "Conditionnel Présent": ["abolirais", "abolirais", "abolirait", "abolirions", "aboliriez", "aboliraient"],
+              "Subjonctif Présent": ["abolis", "abolis", "abolit", "abolissions", "abolissiez", "abolissent"]
+            }
+          },
+          {
+            "infinitive": "bénéficier",
+            "conjugations": {
+              "Présent": ["bénéficie", "bénéficies", "bénéficie", "bénéficions", "bénéficiez", "bénéficient"],
+              "Imparfait": ["bénéficiais", "bénéficiais", "bénéficiait", "bénéficions", "bénéficiez", "bénéficiaient"],
+              "Passé Composé": ["ai bénéficié", "as bénéficié", "a bénéficié", "avons bénéficié", "avez bénéficié", "ont bénéficié"],
+              "Futur Simple": ["bénéficierai", "bénéficieras", "bénéficiera", "bénéficierons", "bénéficierez", "bénéficieront"],
+              "Conditionnel Présent": ["bénéficierais", "bénéficierais", "bénéficierait", "bénéficierions", "bénéficieriez", "bénéficieraient"],
+              "Subjonctif Présent": ["bénéficie", "bénéficies", "bénéficie", "bénéficions", "bénéficiez", "bénéficient"]
+            }
+          },
+          {
+            "infinitive": "chérir",
+            "conjugations": {
+              "Présent": ["chéris", "chéris", "chérit", "chérissons", "chérissez", "chérissent"],
+              "Imparfait": ["chérissais", "chérissais", "chérissait", "chérissions", "chérissiez", "chérissaient"],
+              "Passé Composé": ["ai chéri", "as chéri", "a chéri", "avons chéri", "avez chéri", "ont chéri"],
+              "Futur Simple": ["chérirai", "chériras", "chérira", "chérirons", "chérirez", "chériront"],
+              "Conditionnel Présent": ["chérirais", "chérirais", "chérirait", "chéririons", "chéririez", "chériraient"],
+              "Subjonctif Présent": ["chérisse", "chérisses", "chérisse", "chérissions", "chérissiez", "chérissent"]
+            }
+          },
+          {
+            "infinitive": "débattre",
+            "conjugations": {
+              "Présent": ["débats", "débats", "débat", "débattons", "débattez", "débattent"],
+              "Imparfait": ["débattais", "débattais", "débattait", "débattions", "débattiez", "débattaient"],
+              "Passé Composé": ["ai débattu", "as débattu", "a débattu", "avons débattu", "avez débattu", "ont débattu"],
+              "Futur Simple": ["débattrai", "débattras", "débattra", "débattrons", "débattrez", "débattront"],
+              "Conditionnel Présent": ["débattrais", "débattrais", "débattrait", "débattrions", "débattriez", "débatteraient"],
+              "Subjonctif Présent": ["débatte", "débattes", "débattent", "débattions", "débattiez", "débattent"]
+            }
+          },
+          {
+            "infinitive": "fuir",
+            "conjugations": {
+              "Présent": ["fuis", "fuis", "fuit", "fuyons", "fuyez", "fuient"],
+              "Imparfait": ["fuyais", "fuyais", "fuyait", "fuyions", "fuyiez", "fuyaient"],
+              "Passé Composé": ["ai fui", "as fui", "a fui", "avons fui", "avez fui", "ont fui"],
+              "Futur Simple": ["fuirai", "fuiras", "fuira", "fuirons", "fuirez", "fuiront"],
+              "Conditionnel Présent": ["fuirais", "fuirais", "fuiraient", "fuiraient", "fuirions", "fuiraient"],
+              "Subjonctif Présent": ["fuie", "fuies", "fuie", "fuyions", "fuyiez", "fuient"]
+            }
+          },
+          {
+            "infinitive": "hésiter",
+            "conjugations": {
+              "Présent": ["hésite", "hésites", "hésite", "hésitons", "hésitez", "hésitent"],
+              "Imparfait": ["hésitais", "hésitais", "hésitait", "hésitions", "hésitiez", "hésitaient"],
+              "Passé Composé": ["ai hésité", "as hésité", "a hésité", "avons hésité", "avez hésité", "ont hésité"],
+              "Futur Simple": ["hésiterai", "hésiteras", "hésitera", "hésiterons", "hésiterez", "hésiteront"],
+              "Conditionnel Présent": ["hésiterais", "hésiterais", "hésiterait", "hésiterions", "hésiteriez", "hésiteraient"],
+              "Subjonctif Présent": ["hésite", "hésites", "hésite", "hésitions", "hésitiez", "hésitent"]
+            }
+          },
+          {
+            "infinitive": "inciter",
+            "conjugations": {
+              "Présent": ["incite", "incites", "incite", "incitons", "incitez", "incitent"],
+              "Imparfait": ["incitais", "incitais", "incitait", "incitions", "incitiez", "incitaient"],
+              "Passé Composé": ["ai incité", "as incité", "a incité", "avons incité", "avez incité", "ont incité"],
+              "Futur Simple": ["inciterai", "inciteras", "incitera", "inciterons", "inciterez", "inciteront"],
+              "Conditionnel Présent": ["inciterais", "inciterais", "inciterait", "inciterions", "inciteriez", "inciteraient"],
+              "Subjonctif Présent": ["incite", "incites", "incite", "incitions", "incitiez", "incitent"]
+            }
+          },
+          {
+            "infinitive": "jeter",
+            "conjugations": {
+              "Présent": ["jette", "jettes", "jette", "jetons", "jetez", "jettent"],
+              "Imparfait": ["jetais", "jetais", "jetait", "jetions", "jetiez", "jetaient"],
+              "Passé Composé": ["ai jeté", "as jeté", "a jeté", "avons jeté", "avez jeté", "ont jeté"],
+              "Futur Simple": ["jetterai", "jetteras", "jettera", "jeterons", "jetterez", "jeteront"],
+              "Conditionnel Présent": ["jeterais", "jeterais", "jeterait", "jeterions", "jeteriez", "jetteraient"],
+              "Subjonctif Présent": ["jette", "jettes", "jette", "jetions", "jetiez", "jettent"]
+            }
+          }
+          
+      
+
 ]
